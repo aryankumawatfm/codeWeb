@@ -142,3 +142,108 @@ nav button {
   color: var(--color-bg2);
 }
 
+/* ================== NavBar ============= */
+
+header {
+  position: relative;
+  top: 5rem;
+  overflow: hidden;
+  height: 70vh;
+  margin-bottom: 5rem;
+}
+
+/* change navbar styles on scroll using javascript */
+.window-scroll {
+  background: var(--color-primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+
+.header_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  height: 100%;
+}
+
+.header_left p {
+  margin: 1rem 0 2.4rem;
+}
+
+
+/* ====================== Categories ================== */
+
+.categories {
+  background: var(--color-bg1);
+  height: 32rem;
+}
+
+.categories h1 {
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.categories_container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.categories_left {
+  margin-right: 4rem;
+}
+
+.categories_left p {
+  margin: 1rem 0 3rem;
+}
+
+.categories_right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.category {
+  background: var(--color-bg2);
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: var(--transition);
+}
+
+.category:hover {
+  box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+/* Changing Background for every class (.category_icon) child of class (.category) */
+.category:nth-child(2) .category_icon {
+  background: var(--color-danger);
+}
+
+.category:nth-child(3) .category_icon {
+  background: var(--color-success);
+}
+
+.category:nth-child(4) .category_icon {
+  background: var(--color-warning);
+}
+
+.category:nth-child(5) .category_icon {
+  background: var(--color-success);
+}
+
+/* Changing Background Ended */
+
+
+.category_icon {
+  background: var(--color-primary);
+  padding: 0.7rem;
+  border-radius: 0.9rem;
+}
+
+.category h5 {
+  margin: 2rem 0 1rem;
+}
+
+.category p {
+  font-size: 0.85rem;
+}
