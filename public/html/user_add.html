@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Google Font -> Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <title>
+        codeweb.com
+    </title>
+
+    <link rel="stylesheet" href="/public/css/user_add.css" />
+
+    <!-- IconScout CDN -> For using icon as a font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- =================== NAVBAR STARTED -->
+    <nav>
+        <div class="container nav_container">
+            <!-- Pages -->
+            <a href="/">
+                <img src="/public/media/images/finallogowhite-removebg-preview.png" alt="">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/public/html/about.html">About</a></li>
+                <li><a href="/public/html/contact.html">Contact</a></li>
+                <li><a href="/public/html/categories.html">Categories</a></li>
+                
+            </ul>
+
+            <!-- Button -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================= NAVBAR END ======================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================== SIDE NAVBAR STARTED ======================= -->
+
+    <!-- ================== SIDE NAVBAR END ======================= -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ====================== CONTENT STARTED =================== -->
+
+    <section class="courses">
+        <h2>Add Content</h2>
+
+        <div class="container courses_container">
+            <!-- ================= Article 1 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/add-image-remove.png" alt=""  >
+                </div>
+
+                <!-- <div class="faq_icon">
+                    <i class="uil uil-plus"></i>
+                  </div> -->
+
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn1" class="btn btn-primary" onclick="openHTML()">HTML</button></li>
+                            <li><button id="btn2" class="btn btn-primary" onclick="openCSS()">CSS</button></li>
+                            <li><button id="btn3" class="btn btn-primary" onclick="openJS()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content1" class="button_info">
+                            <textarea  name="code-html" id="code-html" cols="103" rows="25"></textarea >
+                        </div>
+
+                        <div id="content2" class="button_info">
+                            <textarea name="code-html" id="code-html" cols="103" rows="25"></textarea >
+                        </div>
+
+                        <div id="content3" class="button_info">
+                            <textarea name="code-html" id="code-html" cols="103" rows="25"></textarea >
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+    <a href="#" class="btn btn-primary btn-send">Send</a>
+
+    <!-- ====================== CONTENT END =================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <script src="/public/js/main.js"></script>
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================= Script for content =============== -->
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        function openHTML() {
+            content1.style.transform = "translateX(-51.2rem)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+        }
+
+
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(-51.2rem)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#ff7846";
+            btn3.style.color = "#000";
+        }
+
+        function openJS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(-51.2rem)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#000";
+            btn3.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 2 Script ================= -->
+
+    <script>
+        var content4 = document.getElementById("content4");
+        var content5 = document.getElementById("content5");
+        var content6 = document.getElementById("content6");
+
+        var btn4 = document.getElementById("btn4")
+        var btn5 = document.getElementById("btn5")
+        var btn6 = document.getElementById("btn6")
+
+        function openHTML2() {
+            content4.style.transform = "translateX(-54.2rem)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#ff7846";
+            btn5.style.color = "#000";
+            btn6.style.color = "#000";
+        }
+
+
+        function openCSS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(-54.2rem)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#ff7846";
+            btn6.style.color = "#000";
+        }
+
+        function openJS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(-54.2rem)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#000";
+            btn6.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 3 Script ================= -->
+
+    <script>
+        var content7 = document.getElementById("content7");
+        var content8 = document.getElementById("content8");
+        var content9 = document.getElementById("content9");
+
+        var btn7 = document.getElementById("btn7")
+        var btn8 = document.getElementById("btn8")
+        var btn9 = document.getElementById("btn9")
+
+        function openHTML3() {
+            content7.style.transform = "translateX(-54.2rem)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#ff7846";
+            btn8.style.color = "#000";
+            btn9.style.color = "#000";
+        }
+
+
+        function openCSS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(-54.2rem)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#ff7846";
+            btn9.style.color = "#000";
+        }
+
+        function openJS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(-54.2rem)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#000";
+            btn9.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 4 Script ================= -->
+
+    <script>
+        var content10 = document.getElementById("content10");
+        var content11 = document.getElementById("content11");
+        var content12 = document.getElementById("content12");
+
+        var btn10 = document.getElementById("btn10")
+        var btn11 = document.getElementById("btn11")
+        var btn12 = document.getElementById("btn12")
+
+        function openHTML4() {
+            content10.style.transform = "translateX(-54.2rem)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#ff7846";
+            btn11.style.color = "#000";
+            btn12.style.color = "#000";
+        }
+
+
+        function openCSS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(-54.2rem)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#ff7846";
+            btn12.style.color = "#000";
+        }
+
+        function openJS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(-54.2rem)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#000";
+            btn12.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 5 Script ================= -->
+
+    <script>
+        var content13 = document.getElementById("content13");
+        var content14 = document.getElementById("content14");
+        var content15 = document.getElementById("content15");
+
+        var btn13 = document.getElementById("btn13")
+        var btn14 = document.getElementById("btn14")
+        var btn15 = document.getElementById("btn15")
+
+        function openHTML5() {
+            content13.style.transform = "translateX(-54.2rem)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#ff7846";
+            btn14.style.color = "#000";
+            btn15.style.color = "#000";
+        }
+
+
+        function openCSS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(-54.2rem)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#ff7846";
+            btn15.style.color = "#000";
+        }
+
+        function openJS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(-54.2rem)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#000";
+            btn15.style.color = "#ff7846";
+        }
+    </script>
+
+
+
+    <!-- ================== FOOTER STARTED ================== -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#" class="footer_logo">
+                    <h4>Code Web</h4>
+                </a>
+                <p>
+                    Community were you can get source code to customize your website with different kind of elements.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/public/html/about.html">About</a></li>
+                    <li><a href="/public/html/contact.html">Contact</a></li>
+                    <li><a href="/public/html/categories.html">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>codeweb@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Code Web</small>
+        </div>
+    </footer>
+    <!-- =================== FOOTER END ================== -->
+</body>
+
+</html>

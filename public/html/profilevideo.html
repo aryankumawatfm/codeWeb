@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Google Font -> Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <title>
+        codeweb.com
+    </title>
+
+    <link rel="stylesheet" href="/public/css/categories.css" />
+
+    <!-- IconScout CDN -> For using icon as a font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- =================== NAVBAR STARTED -->
+    <nav>
+        <div class="container nav_container">
+            <!-- Pages -->
+            <a href="/">
+                <img src="/public/public/media/images/finallogowhite-removebg-preview.png" alt="">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/public/html/about.html">About</a></li>
+                <li><a href="/public/html/contact.html">Contact</a></li>
+                <li><a href="/public/html/categories.html">Categories</a></li>
+                
+            </ul>
+
+            <!-- Button -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================= NAVBAR END ======================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================== SIDE NAVBAR STARTED ======================= -->
+    <navyo>
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="/public/html/breadcrumbs.html"><i class="fas"></i>Breadcrumbs</a></li>
+                    <li><a href="/public/html/buttons_3d.html"><i class="fas"></i>3d Buttons</a></li>
+                    <li><a href="/public/html/buttons.html"><i class="fas"></i>Buttons</a></li>
+                    <li><a href="/public/html/cards.html"><i class="fas"></i>Cards</a></li>
+                    <li><a href="/public/html/carousels.html"><i class="fas"></i>Carousels</a></li>
+                    <li><a href="/public/html/close_button.html"><i class="fas"></i>Close Button</a></li>
+                    <li><a href="/public/html/dropdown_menu.html"><i class="fas"></i>Dropdown Menu</a></li>
+                    <li><a href="/public/html/off_canvas.html"><i class="fas"></i>Off-canvas</a></li>
+                </ul>
+            </div>
+        </div>
+    </navyo>
+
+    <!-- ================== SIDE NAVBAR END ======================= -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ====================== CONTENT STARTED =================== -->
+
+    <section class="courses">
+        <h2>Buttons</h2>
+
+        <div class="container courses_container">
+            <!-- ================= Article 1 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/button/2021-css-linear-gradient-button-animation.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn1" class="btn btn-primary" onclick="openHTML()">HTML</button></li>
+                            <li><button id="btn2" class="btn btn-primary" onclick="openCSS()">CSS</button></li>
+                            <li><button id="btn3" class="btn btn-primary" onclick="openJS()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content1" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <div class="stage">
+                                    <button class="btn">Hover me</button>
+                                  </div>
+                                    </textarea disabled>
+                        </div>
+
+                        <div id="content2" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                .stage {
+                                    box-sizing: border-box;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100vw;
+                                    height: 100vh;
+                                    overflow: hidden;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    background-color: #65799b;
+                                  }
+                                  
+                                  .btn {
+                                    width: 200px;
+                                    font-size: 20px;
+                                    height: 60px;
+                                    border: none;
+                                    outline: none;
+                                    background: #c38b8b;
+                                    color: #fff;
+                                    cursor: pointer;
+                                    position: relative;
+                                    z-index: 0;
+                                    border-radius: 10px;
+                                  }
+                                  
+                                  .btn::before {
+                                    position: absolute;
+                                    content: "";
+                                    width: calc(100% + 4px);
+                                    height: calc(100% + 4px);
+                                    left: -2px;
+                                    top: -2px;
+                                    background: linear-gradient(
+                                      124deg,
+                                      #ff2400,
+                                      #e81d1d,
+                                      #e8b71d,
+                                      #e3e81d,
+                                      #1de840,
+                                      #1ddde8,
+                                      #2b1de8,
+                                      #dd00f3,
+                                      #dd00f3
+                                    );
+                                    background-size: 400%;
+                                    z-index: -1;
+                                    filter: blur(5px);
+                                    animation: move 20s linear infinite;
+                                    opacity: 0;
+                                    transition: opacity 0.3s ease-in-out;
+                                    border-radius: 10px;
+                                  }
+                                  
+                                  .btn:hover::before {
+                                    opacity: 1;
+                                  }
+                                  
+                                  .btn::after {
+                                    z-index: -1;
+                                    content: "";
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100%;
+                                    background: #555273;
+                                    left: 0;
+                                    top: 0;
+                                    border-radius: 10px;
+                                  }
+                                  
+                                  @keyframes move {
+                                    0% {
+                                      background-position: 0 0;
+                                    }
+                                    50% {
+                                      background-position: 400% 0;
+                                    }
+                                    100% {
+                                      background-position: 0 0;
+                                    }
+                                  }  </textarea disabled>
+                        </div>
+
+                        <div id="content3" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 2 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/button/slime.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn4" class="btn btn-primary" onclick="openHTML2()">HTML</button></li>
+                            <li><button id="btn5" class="btn btn-primary" onclick="openCSS2()">CSS</button></li>
+                            <li><button id="btn6" class="btn btn-primary" onclick="openJS2()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content4" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+                                <div class="wrapper">
+                                    <button><a href="#">
+                                            <div class="scale rotate-4">S</div>
+                                            <div class="scale rotate-2">l</div>
+                                            <div class="scale rotate-3">i</div>
+                                            <div class="scale rotate-1">m</div>
+                                            <div class="scale rotate-2">e</div>
+                                        </a></button>
+                                </div> </textarea disabled>
+                        </div>
+
+                        <div id="content5" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                * {
+                                    padding: 0;
+                                    margin: 0;
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    height: 100vh;
+                                    background-color: #9921e8;
+                                    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                }
+                                
+                                .wrapper {
+                                    height: 50px;
+                                    width: 165px;
+                                    -webkit-tap-highlight-color: transparent;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: flex-end;
+                                }
+                                
+                                button {
+                                    height: 100%;
+                                    width: 90%;
+                                    cursor: pointer;
+                                    background-color: #08e1ae;
+                                    background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+                                    border: none;
+                                    border-radius: 50px 50px 30px 30px;
+                                    transition: 1s;
+                                    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+                                }
+                                
+                                button:active {
+                                    border: none;
+                                    outline: none;
+                                }
+                                
+                                button a {
+                                    font-family: 'Fredoka One', cursive;
+                                    font-size: 30px;
+                                    text-decoration: none;
+                                    color: rgba(37, 61, 29, 0.7);
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: flex-end;
+                                }
+                                
+                                button:hover {
+                                    border-radius: 100px 100px 20px 20px;
+                                    height: 45px;
+                                    width: 165px;
+                                }
+                                
+                                button:hover .scale {
+                                    letter-spacing: 5px;
+                                    font-size: 25px;
+                                    transition: 1s;
+                                }
+                                
+                                .rotate-1, .rotate-2, .rotate-3, .rotate-4 {
+                                    transition: 1s;
+                                }
+                                
+                                button:hover .rotate-1 {
+                                    transform: rotate(15deg);
+                                }
+                                
+                                button:hover .rotate-2 {
+                                    transform: rotate(-15deg);
+                                }
+                                
+                                button:hover .rotate-3 {
+                                    transform: rotate(10deg);
+                                }
+                                
+                                button:hover .rotate-4 {
+                                    transform: rotate(-25deg);
+                                }
+                                
+                                button:active {
+                                    filter: hue-rotate(90deg);
+                                } </textarea disabled>
+                        </div>
+
+                        <div id="content6" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 3 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/button/modern-gradient-buttons.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn7" class="btn btn-primary" onclick="openHTML3()">HTML</button></li>
+                            <li><button id="btn8" class="btn btn-primary" onclick="openCSS3()">CSS</button></li>
+                            <li><button id="btn9" class="btn btn-primary" onclick="openJS3()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content7" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <div class="container text-center">
+                                    <div class="row mt-5">
+                                      <div class="col-sm-12">
+                                        <h2 class="mb-0 mt-3 fancy">
+                                          Modern Gradient Buttons</h2>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                      <div class="col-sm-12">
+                                        <h5 class="mb-4 font-weight-light">No Animation</h5>
+                                        <button class="gb gb-bordered" id="gb1">Button 1</button>
+                                        <button class="gb gb-bordered gb-rounded" id="gb2">Button 2</button>
+                                        <button class="gb" id="gb3">Button 3</button>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                      <div class="col-sm-12">
+                                        <h5 class="mb-4 font-weight-light">Background Fill Animation</h5>
+                                        <button class="gb gb-bordered hover-fill" id="gb4">Button 4</button>
+                                        <button class="gb gb-bordered hover-fill gb-rounded" id="gb5">Button 5</button>
+                                        <button class="gb gb-bordered hover-fill reverse" id="gb6">Button 6</button>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                      <div class="col-sm-12">
+                                        <h5 class="mb-4 font-weight-light">Background Slide Animation</h5>
+                                        <button class="gb gb-bordered hover-slide" id="gb7">Button 7</button>
+                                        <button class="gb gb-bordered hover-slide gb-rounded" id="gb8">Button 8</button>
+                                        <button class="gb gb-bordered hover-slide" id="gb9">Button 9</button>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-5">
+                                      <div class="col-sm-12">
+                                        <h5 class="mb-4 font-weight-light">Background Slide and Fill</h5>
+                                        <button class="gb gb-bordered hover-slide hover-fill" id="gb10">Button 10</button>
+                                        <button class="gb gb-bordered hover-slide hover-fill gb-rounded" id="gb11">Button 11</button>
+                                        <button class="gb gb-bordered hover-slide hover-fill reverse" id="gb12">Button 12</button>
+                                      </div>
+                                    </div>
+                                    <div class="row mt-5 text-center">
+                                      <div class="col-sm-12">
+                                        <div class="font-weight-light">Made by <a href="http://www.thecssking.com/" target="_blank">Jordan</a> with <a href="https://www.gradientmagic.com/" target="_blank">Gradient Magic</a></div>
+                                      </div>
+                                    </div>
+                                  <div> </textarea disabled>
+                        </div>
+
+                        <div id="content8" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                body {
+                                    background: linear-gradient(90deg, rgba(165, 165, 165, 0.03) 0%, rgba(165, 165, 165, 0.03) 8%,rgba(235, 235, 235, 0.03) 8%, rgba(235, 235, 235, 0.03) 9%,rgba(7, 7, 7, 0.03) 9%, rgba(7, 7, 7, 0.03) 14%,rgba(212, 212, 212, 0.03) 14%, rgba(212, 212, 212, 0.03) 17%,rgba(219, 219, 219, 0.03) 17%, rgba(219, 219, 219, 0.03) 95%,rgba(86, 86, 86, 0.03) 95%, rgba(86, 86, 86, 0.03) 100%),linear-gradient(67.5deg, rgba(80, 80, 80, 0.03) 0%, rgba(80, 80, 80, 0.03) 11%,rgba(138, 138, 138, 0.03) 11%, rgba(138, 138, 138, 0.03) 17%,rgba(122, 122, 122, 0.03) 17%, rgba(122, 122, 122, 0.03) 24%,rgba(166, 166, 166, 0.03) 24%, rgba(166, 166, 166, 0.03) 27%,rgba(245, 245, 245, 0.03) 27%, rgba(245, 245, 245, 0.03) 89%,rgba(88, 88, 88, 0.03) 89%, rgba(88, 88, 88, 0.03) 100%),linear-gradient(67.5deg, rgba(244, 244, 244, 0.03) 0%, rgba(244, 244, 244, 0.03) 4%,rgba(16, 16, 16, 0.03) 4%, rgba(16, 16, 16, 0.03) 10%,rgba(157, 157, 157, 0.03) 10%, rgba(157, 157, 157, 0.03) 20%,rgba(212, 212, 212, 0.03) 20%, rgba(212, 212, 212, 0.03) 83%,rgba(5, 5, 5, 0.03) 83%, rgba(5, 5, 5, 0.03) 84%,rgba(237, 237, 237, 0.03) 84%, rgba(237, 237, 237, 0.03) 100%),linear-gradient(90deg, #FFF,#FFF);
+                                    height: 94vh;
+                                  }
+                                  
+                                  .fancy{
+                                      font-family: 'Marcellus SC', serif;
+                                  }
+                                  
+                                  .gb {
+                                    padding: 8px 20px;
+                                    margin-right: 25px;
+                                    cursor: pointer;
+                                    font-size: 18px;
+                                    border-radius: 4px;
+                                  }
+                                  
+                                  
+                                  $border-width: 4px;
+                                  
+                                  // Help from 2nd answer in https://stackoverflow.com/questions/5706963/possible-to-use-border-radius-together-with-a-border-image-which-has-a-gradient
+                                  
+                                  .gb-bordered {
+                                    padding: 6px 20px;
+                                    position: relative;
+                                    border: $border-width solid transparent;
+                                  
+                                    background-clip: padding-box;
+                                    transition: .5s all;
+                                      
+                                    &:after {
+                                      transition: .5s all;
+                                      position: absolute;  
+                                      top: -$border-width;
+                                      left: -$border-width;
+                                      right: -$border-width;
+                                      bottom: -$border-width;
+                                      content: '';
+                                      z-index: -1;
+                                      border-radius: 4px;
+                                    } 
+                                  }
+                                  
+                                  .gb-rounded {
+                                    border-radius: 50px;
+                                    &.gb-bordered:after {
+                                      border-radius: 50px;
+                                    }
+                                  }
+                                  
+                                  .hover-fill {
+                                    transition: .6s all;
+                                    &:hover {
+                                      background-color: transparent;
+                                      color: white;
+                                    }
+                                    &.reverse {
+                                      background-color: transparent;
+                                      color: white;
+                                      &:hover {
+                                        background-color: white;
+                                        color: #333;
+                                      }
+                                    }
+                                  }
+                                  
+                                  .hover-slide {
+                                    transition: .6s all;
+                                  
+                                    &:after {
+                                      background-size: 200% 100%;
+                                      background-position: 0% 0;
+                                    }
+                                    &:hover {
+                                      &:after {
+                                        background-position: 100% 0;
+                                      }
+                                    }
+                                  }
+                                  
+                                  #gb1 {
+                                    &:after {
+                                      background-image: linear-gradient(45deg, rgb(107, 41, 176) 0%, rgb(107, 41, 176) 26%,rgb(201, 24, 187) 26%, rgb(201, 24, 187) 45%,rgb(224, 20, 189) 45%, rgb(224, 20, 189) 53%,rgb(83, 45, 173) 53%, rgb(83, 45, 173) 59%,rgb(154, 33, 181) 59%, rgb(154, 33, 181) 62%,rgb(130, 37, 178) 62%, rgb(130, 37, 178) 66%,rgb(177, 28, 184) 66%, rgb(177, 28, 184) 77%,rgb(248, 16, 192) 77%, rgb(248, 16, 192) 100%);
+                                    }
+                                  }
+                                  
+                                  #gb2 {
+                                    &:after {
+                                      background-image: linear-gradient(45deg, rgb(11, 45, 126) 0%, rgb(11, 45, 126) 44%,rgb(21, 87, 153) 44%, rgb(21, 87, 153) 45%,rgb(30, 129, 181) 45%, rgb(30, 129, 181) 61%,rgb(40, 170, 208) 61%, rgb(40, 170, 208) 67%,rgb(49, 212, 235) 67%, rgb(49, 212, 235) 100%);
+                                    }
+                                  }
+                                  
+                                  #gb3 {
+                                    color: white;
+                                    border: none;
+                                    background: linear-gradient(45deg, rgba(8, 211, 172, 0.45) 0%, rgba(8, 211, 172, 0.45) 12.5%,rgba(62, 29, 50, 0.45) 12.5%, rgba(62, 29, 50, 0.45) 25%,rgba(54, 55, 67, 0.45) 25%, rgba(54, 55, 67, 0.45) 37.5%,rgba(47, 81, 85, 0.45) 37.5%, rgba(47, 81, 85, 0.45) 50%,rgba(23, 159, 137, 0.45) 50%, rgba(23, 159, 137, 0.45) 62.5%,rgba(16, 185, 155, 0.45) 62.5%, rgba(16, 185, 155, 0.45) 75%,rgba(31, 133, 120, 0.45) 75%, rgba(31, 133, 120, 0.45) 87.5%,rgba(39, 107, 102, 0.45) 87.5%, rgba(39, 107, 102, 0.45) 100%),linear-gradient(135deg, rgb(87, 116, 221),rgb(35, 4, 229));
+                                  }
+                                  
+                                  #gb4 {
+                                    &:after {
+                                      background: linear-gradient(45deg, rgb(239, 7, 129) 0%, rgb(239, 7, 129) 6%,rgb(208, 10, 112) 6%, rgb(208, 10, 112) 25%,rgb(177, 13, 96) 25%, rgb(177, 13, 96) 40%,rgb(147, 16, 79) 40%, rgb(147, 16, 79) 45%,rgb(116, 19, 62) 45%, rgb(116, 19, 62) 53%,rgb(85, 22, 46) 53%, rgb(85, 22, 46) 66%,rgb(54, 25, 29) 66%, rgb(54, 25, 29) 100%);
+                                    }
+                                  }
+                                  
+                                  
+                                  #gb5 {
+                                     &:after {
+                                      background: linear-gradient(0, rgba(151, 49, 241, 0.46) 0%, rgba(151, 49, 241, 0.46) 6%,rgba(163, 71, 217, 0.46) 6%, rgba(163, 71, 217, 0.46) 33%,rgba(175, 94, 193, 0.46) 33%, rgba(175, 94, 193, 0.46) 47%,rgba(187, 116, 169, 0.46) 47%, rgba(187, 116, 169, 0.46) 65%,rgba(200, 139, 146, 0.46) 65%, rgba(200, 139, 146, 0.46) 77%,rgba(212, 161, 122, 0.46) 77%, rgba(212, 161, 122, 0.46) 87%,rgba(224, 184, 98, 0.46) 87%, rgba(224, 184, 98, 0.46) 97%,rgba(236, 206, 74, 0.46) 97%, rgba(236, 206, 74, 0.46) 100%),linear-gradient(90deg, rgb(233, 14, 27) 0%, rgb(233, 14, 27) 15%,rgb(235, 41, 27) 15%, rgb(235, 41, 27) 39%,rgb(238, 67, 26) 39%, rgb(238, 67, 26) 42%,rgb(240, 94, 26) 42%, rgb(240, 94, 26) 52%,rgb(243, 120, 25) 52%, rgb(243, 120, 25) 61%,rgb(245, 147, 25) 61%, rgb(245, 147, 25) 76%,rgb(248, 173, 24) 76%, rgb(248, 173, 24) 88%,rgb(250, 200, 24) 88%, rgb(250, 200, 24) 100%);
+                                    } 
+                                  }
+                                  
+                                  #gb6 {
+                                    &:after {
+                                      background: linear-gradient(164deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0.08) 50%,rgba(222, 222, 222, 0.08) 50%, rgba(222, 222, 222, 0.08) 100%),linear-gradient(73deg, rgba(182, 182, 182, 0.02) 0%, rgba(182, 182, 182, 0.02) 50%,rgba(216, 216, 216, 0.02) 50%, rgba(216, 216, 216, 0.02) 100%),linear-gradient(215deg, rgba(27, 27, 27, 0.09) 0%, rgba(27, 27, 27, 0.09) 50%,rgba(243, 243, 243, 0.09) 50%, rgba(243, 243, 243, 0.09) 100%),linear-gradient(236deg, rgba(242, 242, 242, 0.05) 0%, rgba(242, 242, 242, 0.05) 50%,rgba(16, 16, 16, 0.05) 50%, rgba(16, 16, 16, 0.05) 100%),linear-gradient(256deg, rgba(170, 170, 170, 0.07) 0%, rgba(170, 170, 170, 0.07) 50%,rgba(209, 209, 209, 0.07) 50%, rgba(209, 209, 209, 0.07) 100%),linear-gradient(126deg, rgba(204, 204, 204, 0.1) 0%, rgba(204, 204, 204, 0.1) 50%,rgba(26, 26, 26, 0.1) 50%, rgba(26, 26, 26, 0.1) 100%),linear-gradient(61deg, rgba(250, 250, 250, 0.01) 0%, rgba(250, 250, 250, 0.01) 50%,rgba(13, 13, 13, 0.01) 50%, rgba(13, 13, 13, 0.01) 100%),linear-gradient(56deg, rgba(210, 210, 210, 0.05) 0%, rgba(210, 210, 210, 0.05) 50%,rgba(79, 79, 79, 0.05) 50%, rgba(79, 79, 79, 0.05) 100%),linear-gradient(226deg, rgba(62, 62, 62, 0.08) 0%, rgba(62, 62, 62, 0.08) 50%,rgba(73, 73, 73, 0.08) 50%, rgba(73, 73, 73, 0.08) 100%),linear-gradient(90deg, rgb(236, 2, 158),rgb(161, 2, 79));
+                                    }
+                                  }
+                                  
+                                  
+                                  #gb7, #gb10 {
+                                    &:after {
+                                      background-image: linear-gradient(135deg, rgb(246, 137, 24) 0%, rgb(246, 137, 24) 31%,rgb(174, 62, 159) 31%, rgb(174, 62, 159) 42%,rgb(210, 100, 92) 42%, rgb(210, 100, 92) 49%,rgb(138, 25, 227) 49%, rgb(138, 25, 227) 100%);
+                                    }
+                                  }
+                                  
+                                  #gb8 {
+                                    &:after {
+                                      background-image: linear-gradient(90deg, hsla(357,85%,70%, 1) 0%, hsla(357,85%,70%, 1) 14.3%,hsla(48.42,85%,70%, 1) 14.3%, hsla(48.42,85%,70%, 1) 28.6%,hsla(99.85,85%,70%, 1) 28.6%, hsla(99.85,85%,70%, 1) 42.9%,hsla(151.28,85%,70%, 1) 42.9%, hsla(151.28,85%,70%, 1) 57.2%,hsla(202.71,85%,70%, 1) 57.2%, hsla(202.71,85%,70%, 1) 71.5%,hsla(254.14,85%,70%, 1) 71.5%, hsla(254.14,85%,70%, 1) 85.8%,hsla(305.57,85%,70%, 1) 85.8%, hsla(305.57,85%,70%, 1) 100.1%);
+                                    }
+                                  }
+                                  
+                                  #gb9 {
+                                    background-color: transparent;
+                                    color: white;
+                                    &:after {
+                                      background-image: linear-gradient(135deg, rgb(13, 4, 178) 0%, rgb(13, 4, 178) 12.5%,rgb(17, 25, 182) 12.5%, rgb(17, 25, 182) 25%,rgb(20, 46, 185) 25%, rgb(20, 46, 185) 37.5%,rgb(24, 67, 189) 37.5%, rgb(24, 67, 189) 50%,rgb(28, 87, 192) 50%, rgb(28, 87, 192) 62.5%,rgb(32, 108, 196) 62.5%, rgb(32, 108, 196) 75%,rgb(35, 129, 199) 75%, rgb(35, 129, 199) 87.5%,rgb(39, 150, 203) 87.5%, rgb(39, 150, 203) 100%);
+                                    }
+                                    &:hover {
+                                      color: white;
+                                    }
+                                  }
+                                  
+                                  #gb11 {
+                                    &:after {
+                                      background-image: linear-gradient(135deg, rgb(138, 229, 83) 0%, rgb(138, 229, 83) 22%,rgb(110, 203, 71) 22%, rgb(110, 203, 71) 28%,rgb(83, 176, 59) 28%, rgb(83, 176, 59) 72%,rgb(55, 150, 47) 72%, rgb(55, 150, 47) 100%);
+                                    }
+                                  }
+                                  
+                                  #gb12 {
+                                    &:after {
+                                      background-image: linear-gradient(45deg, rgba(49, 74, 89, 0.45) 0%, rgba(49, 74, 89, 0.45) 12.5%,rgba(122, 86, 72, 0.45) 12.5%, rgba(122, 86, 72, 0.45) 25%,rgba(170, 94, 60, 0.45) 25%, rgba(170, 94, 60, 0.45) 37.5%,rgba(219, 102, 49, 0.45) 37.5%, rgba(219, 102, 49, 0.45) 50%,rgba(146, 90, 66, 0.45) 50%, rgba(146, 90, 66, 0.45) 62.5%,rgba(98, 82, 78, 0.45) 62.5%, rgba(98, 82, 78, 0.45) 75%,rgba(195, 98, 55, 0.45) 75%, rgba(195, 98, 55, 0.45) 87.5%,rgba(73, 78, 83, 0.45) 87.5%, rgba(73, 78, 83, 0.45) 100%),linear-gradient(135deg, rgb(117, 6, 152),rgb(110, 34, 251));
+                                    }
+                                  }
+                                </textarea disabled>
+                        </div>
+
+                        <div id="content9" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 4 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/button/add-to-card-microinteraction.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn10" class="btn btn-primary" onclick="openHTML4()">HTML</button></li>
+                            <li><button id="btn11" class="btn btn-primary" onclick="openCSS4()">CSS</button></li>
+                            <li><button id="btn12" class="btn btn-primary" onclick="openJS4()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content10" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <div class="container">
+                                    <button>
+                                        <span>
+                                            <div class="caddie">
+                                                <div class="caddie__top-support"></div>
+                                                <div class="caddie__top"></div>
+                                                <div class="caddie__body"></div>
+                                                <div class="caddie__trou"></div>
+                                                <div class="caddie__trou2"></div>
+                                                <div class="caddie__body-left"></div>
+                                                <div class="caddie__roue"></div>
+                                                <div class="caddie__roue2"></div>
+                                                <div class="caddie__trou3"></div>
+                                            </div>Add to cart
+                                        </span>
+                                        <div>
+                                            <div>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div></div>
+                                            <div></div>
+                                        </div>
+                                        <!-- objet -->
+                                        <div>
+                                            <div>
+                                                <div></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <!-- notification succes -->
+                                        <div>
+                                            <div>$9.99</div>
+                                        </div>
+                                        <!-- notification cancel -->
+                                        <div>
+                                            <div>Canceled</div>
+                                        </div>
+                                    </button>
+                                </div>  </textarea disabled>
+                        </div>
+
+                        <div id="content11" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                body {
+                                    background-color: #eceffc;
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
+                                    -webkit-box-align: center;
+                                    -ms-flex-align: center;
+                                    align-items: center;
+                                    -webkit-box-pack: center;
+                                    -ms-flex-pack: center;
+                                    justify-content: center;
+                                    height: 100vh;
+                                }
+                                
+                                button {
+                                    background-color: #fff700;
+                                    color: black;
+                                    border: none;
+                                    padding: 0 20px;
+                                    line-height: 50px;
+                                    border-radius: 10px;
+                                    -webkit-box-shadow: -2px 3px 0px #d4d4d4;
+                                    box-shadow: -2px 3px 0px #d4d4d4;
+                                    font-weight: 600;
+                                    cursor: pointer;
+                                    -webkit-transition-property: line-height;
+                                    -o-transition-property: line-height;
+                                    transition-property: line-height;
+                                    -webkit-transition-duration: 0.3s;
+                                    -o-transition-duration: 0.3s;
+                                    transition-duration: 0.3s;
+                                }
+                                
+                                button:focus {
+                                    outline: 0;
+                                }
+                                
+                                .tapis-roulant {
+                                    position: relative;
+                                    background-color: gray;
+                                    line-height: 0px;
+                                }
+                                
+                                .tapis-roulant span {
+                                    opacity: 0;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(2) {
+                                    position: absolute;
+                                    left: 0;
+                                    right: 0;
+                                    top: 0;
+                                    bottom: 0;
+                                    overflow: hidden;
+                                    border-radius: 20px;
+                                    z-index: 2;
+                                    background-color: gray;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(2) > div {
+                                    display: -webkit-box;
+                                    display: -ms-flexbox;
+                                    display: flex;
+                                    height: 20px;
+                                    width: 200%;
+                                    border-radius: 30px;
+                                    -webkit-animation-name: roule;
+                                    animation-name: roule;
+                                    -webkit-animation-duration: 6s;
+                                    animation-duration: 6s;
+                                    -webkit-animation-iteration-count: infinite;
+                                    animation-iteration-count: infinite;
+                                    -webkit-animation-timing-function: linear;
+                                    animation-timing-function: linear;
+                                    -webkit-transform: translateX(-50%);
+                                    -ms-transform: translateX(-50%);
+                                    transform: translateX(-50%);
+                                }
+                                
+                                .tapis-roulant i {
+                                    height: 100%;
+                                    width: 2px;
+                                    background-color: #656565;
+                                    display: inline-block;
+                                    -webkit-transform: skew(52deg, 20deg);
+                                    -ms-transform: skew(52deg, 20deg);
+                                    transform: skew(52deg, 20deg);
+                                    margin: 0 2%;
+                                }
+                                
+                                /* caisse */
+                                .tapis-roulant > div:nth-child(3) {
+                                    position: absolute;
+                                    left: 55%;
+                                    width: 35px;
+                                    height: 0;
+                                    background-color: #000000;
+                                    z-index: 1;
+                                    bottom: 0;
+                                    -webkit-animation-name: caisse;
+                                    animation-name: caisse;
+                                    -webkit-animation-duration: 0.3s;
+                                    animation-duration: 0.3s;
+                                    -webkit-animation-delay: 0.05s;
+                                    animation-delay: 0.05s;
+                                    -webkit-animation-timing-function: linear;
+                                    animation-timing-function: linear;
+                                    -webkit-animation-fill-mode: forwards;
+                                    animation-fill-mode: forwards;
+                                    overflow: hidden;
+                                    border: 2px solid #a0a0a0;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(3) > div:first-child {
+                                    position: absolute;
+                                    z-index: 4;
+                                    width: 100%;
+                                    height: 75%;
+                                    background-image: -o-linear-gradient(
+                                        81deg,
+                                        rgba(84, 84, 84, 0),
+                                        hsl(0deg 0% 56% / 61%) 70%
+                                    );
+                                    background-image: linear-gradient(
+                                        9deg,
+                                        rgba(84, 84, 84, 0),
+                                        hsl(0deg 0% 56% / 61%) 70%
+                                    );
+                                    top: 0;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(3) > div:nth-child(2) {
+                                    background: red;
+                                    width: 1px;
+                                    height: 1px;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 46%;
+                                    -webkit-box-shadow: -4px 16px 20px 12px red;
+                                    box-shadow: -4px 16px 20px 12px red;
+                                    z-index: 6;
+                                    border-radius: 100%;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(4) {
+                                    position: absolute;
+                                    bottom: 0px;
+                                    left: 0px;
+                                    width: 100%;
+                                    height: 34px;
+                                    overflow: hidden;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(4) > div:first-child {
+                                    position: absolute;
+                                    width: 29px;
+                                    height: 100%;
+                                    background: #ebca79;
+                                    -webkit-box-shadow: 0 2px 0 0px rgb(0 0 0 / 25%),
+                                        inset 0 1px 0 0 rgb(255 255 255 / 20%);
+                                    box-shadow: 0 2px 0 0px rgb(0 0 0 / 25%),
+                                        inset 0 1px 0 0 rgb(255 255 255 / 20%);
+                                    z-index: 9;
+                                    -webkit-animation-name: objet;
+                                    animation-name: objet;
+                                    -webkit-animation-duration: 3.8s;
+                                    animation-duration: 3.8s;
+                                    -webkit-animation-iteration-count: infinite;
+                                    animation-iteration-count: infinite;
+                                    -webkit-animation-timing-function: linear;
+                                    animation-timing-function: linear;
+                                    left: -10px;
+                                    bottom: 3px;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(4) > div:first-child:after {
+                                    content: "";
+                                    width: 100%;
+                                    height: 70%;
+                                    background: rgba(0, 0, 0, 0.12);
+                                    position: absolute;
+                                    top: 0px;
+                                    left: 0px;
+                                    border-top: 1px solid rgba(255, 255, 255, 0.2);
+                                }
+                                
+                                .tapis-roulant > div:nth-child(4) > div:first-child > div:first-child {
+                                    width: 3px;
+                                    height: 3px;
+                                    background: #37353a;
+                                    position: absolute;
+                                    border-radius: 50%;
+                                    left: 5px;
+                                    top: 8px;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(4) > div:first-child > div:first-child:after {
+                                    content: "";
+                                    width: 3px;
+                                    height: 3px;
+                                    background: #37353a;
+                                    position: absolute;
+                                    border-radius: 50%;
+                                    left: 16px;
+                                }
+                                
+                                .tapis-roulant > div:nth-child(4) > div:first-child > div:nth-child(2) {
+                                    width: 10px;
+                                    height: 10px;
+                                    position: absolute;
+                                    border-style: solid;
+                                    border-width: 3px;
+                                    border-color: transparent #fff #fff #fff;
+                                    border-radius: 0 0 50% 50%;
+                                    left: 7px;
+                                    top: 8px;
+                                    z-index: 10;
+                                    -webkit-box-shadow: 0 4px 0 0px rgb(0 0 0 / 20%);
+                                    box-shadow: 0 4px 0 0px rgb(0 0 0 / 20%);
+                                    -webkit-transition: height 0.5s, -webkit-transform 0.5s;
+                                    transition: height 0.5s, -webkit-transform 0.5s;
+                                    -o-transition: transform 0.5s, height 0.5s;
+                                    transition: transform 0.5s, height 0.5s;
+                                    transition: transform 0.5s, height 0.5s, -webkit-transform 0.5s;
+                                }
+                                
+                                button > div:nth-child(5) {
+                                    position: absolute;
+                                    top: -40px;
+                                    right: 10px;
+                                    color: orange;
+                                    display: none;
+                                    font-size: 12px;
+                                    z-index: 9;
+                                }
+                                
+                                .tapis-roulant.added > div:nth-child(5) {
+                                    display: block;
+                                    -webkit-animation-name: fadeOutTop;
+                                    animation-name: fadeOutTop;
+                                    -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
+                                    -webkit-animation-fill-mode: forwards;
+                                    animation-fill-mode: forwards;
+                                    opacity: 0;
+                                }
+                                
+                                button > div:nth-child(6) {
+                                    position: absolute;
+                                    top: -50px;
+                                    left: 10px;
+                                    display: none;
+                                    color: red;
+                                }
+                                
+                                .tapis-roulant.canceled > div:nth-child(6) {
+                                    display: block;
+                                    -webkit-animation-name: scaleZoomOutTop;
+                                    animation-name: scaleZoomOutTop;
+                                    -webkit-animation-duration: 1s;
+                                    animation-duration: 1s;
+                                    opacity: 0;
+                                }
+                                
+                                .container {
+                                    position: relative;
+                                    height: 60px;
+                                    margin: auto;
+                                    line-height: 60px;
+                                }
+                                
+                                @-webkit-keyframes roule {
+                                    from {
+                                        -webkit-transform: translateX(-50%);
+                                        transform: translateX(-50%);
+                                    }
+                                
+                                    to {
+                                        -webkit-transform: translateX(0%);
+                                        transform: translateX(0%);
+                                    }
+                                }
+                                
+                                @keyframes roule {
+                                    from {
+                                        -webkit-transform: translateX(-50%);
+                                        transform: translateX(-50%);
+                                    }
+                                
+                                    to {
+                                        -webkit-transform: translateX(0%);
+                                        transform: translateX(0%);
+                                    }
+                                }
+                                
+                                @-webkit-keyframes objet {
+                                    from {
+                                        left: -10px;
+                                    }
+                                
+                                    to {
+                                        left: 200px;
+                                    }
+                                }
+                                
+                                @keyframes objet {
+                                    from {
+                                        left: -10px;
+                                    }
+                                
+                                    to {
+                                        left: 200px;
+                                    }
+                                }
+                                
+                                @-webkit-keyframes caisse {
+                                    from {
+                                        height: 0;
+                                    }
+                                
+                                    to {
+                                        height: 22px;
+                                    }
+                                }
+                                
+                                @keyframes caisse {
+                                    from {
+                                        height: 0;
+                                    }
+                                
+                                    to {
+                                        height: 22px;
+                                    }
+                                }
+                                
+                                @-webkit-keyframes fadeOutTop {
+                                    0% {
+                                        opacity: 0;
+                                    }
+                                
+                                    50% {
+                                        opacity: 1;
+                                    }
+                                
+                                    100% {
+                                        opacity: 0;
+                                        -webkit-transform: translateY(-100%);
+                                        transform: translateY(-100%);
+                                    }
+                                }
+                                
+                                @keyframes fadeOutTop {
+                                    0% {
+                                        opacity: 0;
+                                    }
+                                
+                                    50% {
+                                        opacity: 1;
+                                    }
+                                
+                                    100% {
+                                        opacity: 0;
+                                        -webkit-transform: translateY(-100%);
+                                        transform: translateY(-100%);
+                                    }
+                                }
+                                
+                                .scaleZoomOutTop {
+                                    -webkit-animation-name: scaleZoomOutTop;
+                                    animation-name: scaleZoomOutTop;
+                                }
+                                
+                                @-webkit-keyframes scaleZoomOutTop {
+                                    30%,
+                                    50% {
+                                        -webkit-transform: scale(0.7);
+                                        transform: scale(0.7);
+                                    }
+                                
+                                    60% {
+                                        opacity: 1;
+                                    }
+                                
+                                    to {
+                                        opacity: 0;
+                                        -webkit-transform: scale(0.7);
+                                        transform: scale(0.7);
+                                    }
+                                }
+                                
+                                @keyframes scaleZoomOutTop {
+                                    30%,
+                                    50% {
+                                        -webkit-transform: scale(0.7);
+                                        transform: scale(0.7);
+                                    }
+                                
+                                    60% {
+                                        opacity: 1;
+                                    }
+                                
+                                    to {
+                                        opacity: 0;
+                                        -webkit-transform: scale(0.7);
+                                        transform: scale(0.7);
+                                    }
+                                }
+                                
+                                .caddie {
+                                    position: relative;
+                                    display: inline-block;
+                                    width: 20px;
+                                    height: 17px;
+                                    vertical-align: -6px;
+                                    margin-right: 10px;
+                                    -webkit-transform: scale(1);
+                                    -ms-transform: scale(1);
+                                    transform: scale(1);
+                                    -webkit-transition-property: -webkit-transform;
+                                    transition-property: -webkit-transform;
+                                    -o-transition-property: transform;
+                                    transition-property: transform;
+                                    transition-property: transform, -webkit-transform;
+                                    -webkit-transition-duration: 0.3s;
+                                    -o-transition-duration: 0.3s;
+                                    transition-duration: 0.3s;
+                                }
+                                
+                                .tapis-roulant .caddie {
+                                    height: 0;
+                                    line-height: 0;
+                                    overflow: hidden;
+                                    font-size: 0;
+                                    -webkit-transform: scale(0);
+                                    -ms-transform: scale(0);
+                                    transform: scale(0);
+                                }
+                                
+                                .caddie__body {
+                                    width: 92%;
+                                    height: 60%;
+                                    background: #edefff;
+                                    -webkit-transform: skew(-6deg);
+                                    -ms-transform: skew(-6deg);
+                                    transform: skew(-6deg);
+                                    position: absolute;
+                                    top: 0;
+                                    right: 0px;
+                                    border-radius: 2px;
+                                    border: 1px solid black;
+                                    border-left: none;
+                                }
+                                
+                                .caddie__body-left {
+                                    position: absolute;
+                                    background-color: #ced5ff;
+                                    left: -1%;
+                                    top: 1%;
+                                    width: 84%;
+                                    height: 60%;
+                                    border-left: 1px solid black;
+                                    border-radius: 2px;
+                                    border-top-left-radius: 8%;
+                                    border-top: 1px solid black;
+                                    border-top-right-radius: 0;
+                                }
+                                
+                                .caddie__top {
+                                    position: absolute;
+                                    top: -23%;
+                                    left: -2.5%;
+                                    width: 2px;
+                                    height: 27%;
+                                    -webkit-transform: skew(19deg);
+                                    -ms-transform: skew(19deg);
+                                    transform: skew(19deg);
+                                    background-color: black;
+                                }
+                                
+                                .caddie__top-support {
+                                    position: absolute;
+                                    top: -30%;
+                                    left: -12.5%;
+                                    background-color: #757575;
+                                    width: 4px;
+                                    height: 2px;
+                                    border-radius: 10px;
+                                    z-index: 2;
+                                }
+                                
+                                .caddie__trou {
+                                    width: 17px;
+                                    height: 1px;
+                                    background-color: #7f8dd8;
+                                    border-radius: 10px;
+                                    position: absolute;
+                                    top: 4px;
+                                    left: 7%;
+                                    z-index: 9;
+                                }
+                                
+                                .caddie__trou2 {
+                                    width: 11px;
+                                    height: 1px;
+                                    background-color: #7f8dd8;
+                                    border-radius: 10px;
+                                    position: absolute;
+                                    top: 9px;
+                                    left: 18%;
+                                    z-index: 9;
+                                }
+                                
+                                .caddie__trou3 {
+                                    width: 11px;
+                                    height: 1px;
+                                    background-color: #7f8dd8;
+                                    border-radius: 10px;
+                                    position: absolute;
+                                    top: 6px;
+                                    left: 18%;
+                                    z-index: 9;
+                                }
+                                
+                                .caddie__roue {
+                                    position: absolute;
+                                    bottom: -1px;
+                                    left: 2px;
+                                    width: 3px;
+                                    height: 3px;
+                                    background-color: #808080;
+                                    border-radius: 100%;
+                                    border: 1px solid black;
+                                }
+                                
+                                .caddie__roue2 {
+                                    position: absolute;
+                                    bottom: -1px;
+                                    left: 11px;
+                                    width: 3px;
+                                    height: 3px;
+                                    background-color: #808080;
+                                    border-radius: 100%;
+                                    border: 1px solid black;
+                                }
+                                 </textarea disabled>
+                        </div>
+
+                        <div id="content12" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js
+                                const button = document.querySelector("button");
+let timer;
+let timer2;
+const audio = new Audio("https://lasonotheque.org/UPLOAD/mp3/1417.mp3");
+
+button.addEventListener("click", function () {
+	if (!this.classList.contains("added")) {
+		clearTimeout(timer);
+		clearTimeout(timer2);
+	}
+
+	if (
+		this.classList.contains("tapis-roulant") &&
+		!this.classList.contains("added")
+	) {
+		document.querySelector(
+			".tapis-roulant>div:nth-child(4)>div"
+		).style.animationPlayState = "paused";
+		document.querySelector(
+			".tapis-roulant>div:nth-child(2)>div"
+		).style.animationPlayState = "paused";
+		this.style.pointerEvents = "none";
+		this.classList.add("canceled");
+		setTimeout(() => {
+			this.style.pointerEvents = "initial";
+			this.classList.remove("tapis-roulant");
+			this.classList.remove("canceled");
+		}, 1000);
+	}
+
+	if (!this.classList.contains("tapis-roulant")) {
+		this.classList.add("tapis-roulant");
+		document.querySelector(
+			".tapis-roulant>div:nth-child(4)>div"
+		).style.animationPlayState = "running";
+		document.querySelector(
+			".tapis-roulant>div:nth-child(2)>div"
+		).style.animationPlayState = "running";
+		timer = setTimeout(() => {
+			this.classList.add("added");
+			audio.play();
+			this.style.pointerEvents = "none";
+			timer2 = setTimeout(() => {
+				this.classList.remove("added");
+				this.classList.remove("tapis-roulant");
+				this.style.pointerEvents = "initial";
+			}, 1600);
+		}, 1400);
+	}
+});
+</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 5 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/button/codepen-click-button-challenge-ii.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn13" class="btn btn-primary" onclick="openHTML5()">HTML</button></li>
+                            <li><button id="btn14" class="btn btn-primary" onclick="openCSS5()">CSS</button></li>
+                            <li><button id="btn15" class="btn btn-primary" onclick="openJS5()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content13" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <p class="thank">THANK YOU!</p>
+                                <div class="button">
+                                    <p>SEND US MESSAGE</p>
+                                </div>
+                                
+                                <div id="stars"></div>
+                                <div id="stars2"></div>
+                                <div id="stars3"></div> </textarea disabled>
+                        </div>
+
+                        <div id="content14" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                //******************************************************
+                                // ❤️ it if you ❤️ it :) Thank you 🤘🤘🤘
+                                // Best viewed fullscreen
+                                // https://codepen.io/nocni_sovac/full/rNjYOyr
+                                
+                                //******************************************************
+                                
+                                @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+                                
+                                $btn-w: 250px;
+                                $btn-h: 76px;
+                                
+                                * {
+                                    box-sizing: border-box;
+                                }
+                                
+                                *:before,
+                                *:after {
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 100vh;
+                                    background: #1c1624;
+                                    overflow: hidden;
+                                    font-family: "Russo One", sans-serif;
+                                    transform-style: preserve-3d;
+                                }
+                                
+                                .thank {
+                                    opacity: 0;
+                                    color: #fae428;
+                                    font-size: 1.5em;
+                                }
+                                .button {
+                                    position: absolute;
+                                    margin: 0 auto;
+                                    width: $btn-w;
+                                    border: 1px solid #fae428;
+                                    color: #fae428;
+                                    border-radius: 0.1em;
+                                    text-transform: uppercase;
+                                    text-align: center;
+                                    font-size: 1.3em;
+                                    cursor: pointer;
+                                    height: $btn-h;
+                                    opacity: 1;
+                                    transition: all 0.2s ease;
+                                    line-height: 30px;
+                                    perspective: 1000px;
+                                    transform-style: preserve-3d;
+                                    perspective-origin: 49% 50%;
+                                    display: flex;
+                                    justify-content: center;
+                                
+                                    p {
+                                        transition: all 0.2s ease;
+                                        user-select: none;
+                                        line-height: 33px;
+                                        position: absolute;
+                                    }
+                                }
+                                
+                                // Stars
+                                
+                                @function generateStart($n) {
+                                    $value: "#{random(2000)}px #{random(2000)}px rgba(165,190,195,#{random(10)/10})";
+                                    @for $i from 0 through $n {
+                                        $value: "#{$value} , #{random(2000)}px #{random(2000)}px rgba(184,174,131,#{random(10)/10})";
+                                    }
+                                    @return unquote($value);
+                                }
+                                
+                                $shadows-small: generateStart(500);
+                                $shadows-medium: generateStart(400);
+                                $shadows-big: generateStart(300);
+                                
+                                #stars {
+                                    width: 2px;
+                                    height: 2px;
+                                    box-shadow: $shadows-small;
+                                    background: transparent;
+                                    border-radius: 100%;
+                                    animation: blink 2s infinite;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                }
+                                
+                                #stars2 {
+                                    width: 3px;
+                                    height: 3px;
+                                    box-shadow: $shadows-medium;
+                                    background: transparent;
+                                    border-radius: 100%;
+                                    animation: blink 4s infinite;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                }
+                                
+                                #stars3 {
+                                    width: 4px;
+                                    height: 4px;
+                                    box-shadow: $shadows-big;
+                                    background: transparent;
+                                    border-radius: 100%;
+                                    animation: blink 3s infinite;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                }
+                                
+                                @keyframes blink {
+                                    0% {
+                                        opacity: 1;
+                                    }
+                                
+                                    50% {
+                                        opacity: 0.2;
+                                    }
+                                
+                                    100% {
+                                        opacity: 1;
+                                    }
+                                }
+                                 </textarea disabled>
+                        </div>
+
+                        <div id="content15" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js
+                                let button = document.querySelector(".button");
+let buttonText = document.querySelector(".button p");
+let thankText = document.querySelector(".button p:last-child");
+
+let timeLine = new TimelineMax({
+	paused: false
+});
+
+button.addEventListener("click", () => {
+	timeLine
+		.to(buttonText, 0.6, {
+			opacity: 0
+		})
+		.to(button, 0.8, {
+			height: 0.2,
+			opacity: 0.5,
+			boxShadow: "0px 0px 35px 7px #cd28fa",
+			delay: 0.25
+		})
+		.to(button, 0.1, {
+			opacity: 0.5,
+			background: "#26ff92"
+		})
+		.to(button, 0, {
+			width: 1,
+			delay: 0.2
+		})
+		.to(button, 0.1, {
+			boxShadow: "0px 0px 100px 55px #fa2856",
+			y: 90,
+			height: 100,
+			delay: 0.23
+		})
+		.to(button, 0.3, {
+			height: 1000,
+			y: -1500,
+			boxShadow: "0px 0px 85px 17px #fa2856",
+			delay: 0.2
+		})
+		.to(".thank", 1, {
+			opacity: 1,
+			delay: 0.3
+		});
+});
+</textarea disabled>
+                        </div>
+                    </div>s
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====================== CONTENT END =================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <script src="/public/js/main.js"></script>
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================= Script for content =============== -->
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        function openHTML() {
+            content1.style.transform = "translateX(-54.2rem)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+        }
+
+
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(-54.2rem)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#ff7846";
+            btn3.style.color = "#000";
+        }
+
+        function openJS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(-54.2rem)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#000";
+            btn3.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 2 Script ================= -->
+
+    <script>
+        var content4 = document.getElementById("content4");
+        var content5 = document.getElementById("content5");
+        var content6 = document.getElementById("content6");
+
+        var btn4 = document.getElementById("btn4")
+        var btn5 = document.getElementById("btn5")
+        var btn6 = document.getElementById("btn6")
+
+        function openHTML2() {
+            content4.style.transform = "translateX(-54.2rem)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#ff7846";
+            btn5.style.color = "#000";
+            btn6.style.color = "#000";
+        }
+
+
+        function openCSS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(-54.2rem)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#ff7846";
+            btn6.style.color = "#000";
+        }
+
+        function openJS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(-54.2rem)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#000";
+            btn6.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 3 Script ================= -->
+
+    <script>
+        var content7 = document.getElementById("content7");
+        var content8 = document.getElementById("content8");
+        var content9 = document.getElementById("content9");
+
+        var btn7 = document.getElementById("btn7")
+        var btn8 = document.getElementById("btn8")
+        var btn9 = document.getElementById("btn9")
+
+        function openHTML3() {
+            content7.style.transform = "translateX(-54.2rem)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#ff7846";
+            btn8.style.color = "#000";
+            btn9.style.color = "#000";
+        }
+
+
+        function openCSS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(-54.2rem)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#ff7846";
+            btn9.style.color = "#000";
+        }
+
+        function openJS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(-54.2rem)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#000";
+            btn9.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 4 Script ================= -->
+
+    <script>
+        var content10 = document.getElementById("content10");
+        var content11 = document.getElementById("content11");
+        var content12 = document.getElementById("content12");
+
+        var btn10 = document.getElementById("btn10")
+        var btn11 = document.getElementById("btn11")
+        var btn12 = document.getElementById("btn12")
+
+        function openHTML4() {
+            content10.style.transform = "translateX(-54.2rem)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#ff7846";
+            btn11.style.color = "#000";
+            btn12.style.color = "#000";
+        }
+
+
+        function openCSS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(-54.2rem)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#ff7846";
+            btn12.style.color = "#000";
+        }
+
+        function openJS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(-54.2rem)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#000";
+            btn12.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 5 Script ================= -->
+
+    <script>
+        var content13 = document.getElementById("content13");
+        var content14 = document.getElementById("content14");
+        var content15 = document.getElementById("content15");
+
+        var btn13 = document.getElementById("btn13")
+        var btn14 = document.getElementById("btn14")
+        var btn15 = document.getElementById("btn15")
+
+        function openHTML5() {
+            content13.style.transform = "translateX(-54.2rem)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#ff7846";
+            btn14.style.color = "#000";
+            btn15.style.color = "#000";
+        }
+
+
+        function openCSS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(-54.2rem)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#ff7846";
+            btn15.style.color = "#000";
+        }
+
+        function openJS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(-54.2rem)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#000";
+            btn15.style.color = "#ff7846";
+        }
+    </script>
+
+
+
+    <!-- ================== FOOTER STARTED ================== -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#" class="footer_logo">
+                    <h4>Code Web</h4>
+                </a>
+                <p>
+                    Community were you can get source code to customize your website with different kind of elements.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/categories.html">Categories</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>codeweb@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Code Web</small>
+        </div>
+    </footer>
+    <!-- =================== FOOTER END ================== -->
+
+    <script src="/public/js/profile.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1848 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Google Font -> Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <title>
+        codeweb.com
+    </title>
+
+    <link rel="stylesheet" href="/public/css/categories.css" />
+
+    <!-- IconScout CDN -> For using icon as a font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- =================== NAVBAR STARTED -->
+    <nav>
+        <div class="container nav_container">
+            <!-- Pages -->
+            <a href="/">
+                <img src="/public/media/images/finallogowhite-removebg-preview.png" alt="">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/public/html/about.html">About</a></li>
+                <li><a href="/public/html/contact.html">Contact</a></li>
+                <li><a href="/public/html/categories.html">Categories</a></li>
+                
+            </ul>
+
+            <!-- Button -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================= NAVBAR END ======================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================== SIDE NAVBAR STARTED ======================= -->
+    <navyo>
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="/public/html/breadcrumbs.html"><i class="fas"></i>Breadcrumbs</a></li>
+                    <li><a href="/public/html/buttons_3d.html"><i class="fas"></i>3d Buttons</a></li>
+                    <li><a href="/public/html/buttons.html"><i class="fas"></i>Buttons</a></li>
+                    <li><a href="/public/html/cards.html"><i class="fas"></i>Cards</a></li>
+                    <li><a href="/public/html/carousels.html"><i class="fas"></i>Carousels</a></li>
+                    <li><a href="/public/html/close_button.html"><i class="fas"></i>Close Button</a></li>
+                    <li><a href="/public/html/dropdown_menu.html"><i class="fas"></i>Dropdown Menu</a></li>
+                    <li><a href="/public/html/off_canvas.html"><i class="fas"></i>Off-canvas</a></li>
+                </ul>
+            </div>
+        </div>
+    </navyo>
+
+    <!-- ================== SIDE NAVBAR END ======================= -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ====================== CONTENT STARTED =================== -->
+
+    <section class="courses">
+        <h2>Dropdown Menu</h2>
+
+        <div class="container courses_container">
+            <!-- ================= Article 1 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                   <video loop class="gallery-image" src="/public/media/video/dropdown_1.mp4"></video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn1" class="btn btn-primary" onclick="openHTML()">HTML</button></li>
+                            <li><button id="btn2" class="btn btn-primary" onclick="openCSS()">CSS</button></li>
+                            <li><button id="btn3" class="btn btn-primary" onclick="openJS()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content1" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <input class="dark-light" type="checkbox" id="dark-light" name="dark-light"/>
+                                <label for="dark-light"></label>
+                          
+                                <div class="light-back"></div> 
+                          
+                              <a href="https://front.codes/" class="logo" target="_blank">
+                                  <img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+                              </a>
+                          
+                                <div class="sec-center"> 	
+                                    <input class="dropdown" type="checkbox" id="dropdown" name="dropdown"/>
+                                    <label class="for-dropdown" for="dropdown">Dropdown Menu <i class="uil uil-arrow-down"></i></label>
+                                    <div class="section-dropdown"> 
+                                        <a href="#">Dropdown Link <i class="uil uil-arrow-right"></i></a>
+                                        <input class="dropdown-sub" type="checkbox" id="dropdown-sub" name="dropdown-sub"/>
+                                        <label class="for-dropdown-sub" for="dropdown-sub">Dropdown Sub <i class="uil uil-plus"></i></label>
+                                        <div class="section-dropdown-sub"> 
+                                            <a href="#">Dropdown Link <i class="uil uil-arrow-right"></i></a>
+                                            <a href="#">Dropdown Link <i class="uil uil-arrow-right"></i></a>
+                                        </div>
+                                        <a href="#">Dropdown Link <i class="uil uil-arrow-right"></i></a>
+                                        <a href="#">Dropdown Link <i class="uil uil-arrow-right"></i></a>
+                                    </div>
+                                </div>    
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content2" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+                                *,
+                                *::before,
+                                *::after {
+                                  box-sizing: border-box;
+                                }
+                                body{
+                                    font-family: 'Roboto', sans-serif;
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    line-height: 1.4;
+                                    color: #fff;
+                                    background-color: #1f2029;
+                                    overflow-x: hidden;
+                                  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+                                  background-position: center;
+                                  background-repeat: repeat;
+                                  background-size: 4%;
+                                  width: 100%;
+                                  display: -ms-flexbox;
+                                  display: flex;
+                                  -ms-flex-wrap: wrap;
+                                  flex-wrap: wrap;
+                                  -ms-flex-pack: center;
+                                  justify-content: center;
+                                  padding-top: 100px;
+                                  padding-bottom: 300px;
+                                }
+                                .sec-center {
+                                  position: relative;
+                                  max-width: 100%;
+                                  text-align: center;
+                                  z-index: 200;
+                                }
+                                [type="checkbox"]:checked,
+                                [type="checkbox"]:not(:checked){
+                                  position: absolute;
+                                  left: -9999px;
+                                  opacity: 0;
+                                  pointer-events: none;
+                                }
+                                .dark-light:checked + label,
+                                .dark-light:not(:checked) + label{
+                                  position: fixed;
+                                  top: 40px;
+                                  right: 40px;
+                                  z-index: 20000;
+                                  display: block;
+                                  border-radius: 50%;
+                                  width: 46px;
+                                  height: 46px;
+                                  cursor: pointer;
+                                  transition: all 200ms linear;
+                                  box-shadow: 0 0 25px rgba(255,235,167,.45);
+                                }
+                                .dark-light:checked + label{
+                                  transform: rotate(360deg);
+                                }
+                                .dark-light:checked + label:after,
+                                .dark-light:not(:checked) + label:after{
+                                  position: absolute;
+                                  content: '';
+                                  top: 1px;
+                                  left: 1px;
+                                  overflow: hidden;
+                                  z-index: 2;
+                                  display: block;
+                                  border-radius: 50%;
+                                  width: 44px;
+                                  height: 44px;
+                                  background-color: #102770;
+                                  background-image: url('https://assets.codepen.io/1462889/moon.svg');
+                                  background-size: 20px 20px;
+                                  background-repeat: no-repeat;
+                                  background-position: center;
+                                  transition: all 200ms linear;
+                                  opacity: 0;
+                                }
+                                .dark-light:checked + label:after {
+                                  opacity: 1;
+                                }
+                                .dark-light:checked + label:before,
+                                .dark-light:not(:checked) + label:before{
+                                  position: absolute;
+                                  content: '';
+                                  top: 0;
+                                  left: 0;
+                                  overflow: hidden;
+                                  z-index: 1;
+                                  display: block;
+                                  border-radius: 50%;
+                                  width: 46px;
+                                  height: 46px;
+                                  background-color: #48dbfb;
+                                  background-image: url('https://assets.codepen.io/1462889/sun.svg');
+                                  background-size: 25px 25px;
+                                  background-repeat: no-repeat;
+                                  background-position: center;
+                                  transition: all 200ms linear;
+                                }
+                                .dark-light:checked + label:before{
+                                  background-color: #000;
+                                }
+                                .light-back{
+                                  position: fixed;
+                                  top: 0;
+                                  left: 0;
+                                  z-index: 1;
+                                  background-color: #fff;
+                                  overflow: hidden;
+                                  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat-back.svg');
+                                  background-position: center;
+                                  background-repeat: repeat;
+                                  background-size: 4%;
+                                  height: 100%;
+                                  width: 100%;
+                                  transition: all 200ms linear;
+                                  opacity: 0;
+                                }
+                                .dark-light:checked ~ .light-back{
+                                  opacity: 1;
+                                }
+                                .dropdown:checked + label,
+                                .dropdown:not(:checked) + label{
+                                  position: relative;
+                                  font-family: 'Roboto', sans-serif;
+                                  font-weight: 500;
+                                  font-size: 15px;
+                                  line-height: 2;
+                                  height: 50px;
+                                  transition: all 200ms linear;
+                                  border-radius: 4px;
+                                  width: 220px;
+                                  letter-spacing: 1px;
+                                  display: -webkit-inline-flex;
+                                  display: -ms-inline-flexbox;
+                                  display: inline-flex;
+                                  -webkit-align-items: center;
+                                  -moz-align-items: center;
+                                  -ms-align-items: center;
+                                  align-items: center;
+                                  -webkit-justify-content: center;
+                                  -moz-justify-content: center;
+                                  -ms-justify-content: center;
+                                  justify-content: center;
+                                  -ms-flex-pack: center;
+                                  text-align: center;
+                                  border: none;
+                                  background-color: #ffeba7;
+                                  cursor: pointer;
+                                  color: #102770;
+                                  box-shadow: 0 12px 35px 0 rgba(255,235,167,.15);
+                                }
+                                .dark-light:checked ~ .sec-center .for-dropdown{
+                                  background-color: #102770;
+                                  color: #ffeba7;
+                                  box-shadow: 0 12px 35px 0 rgba(16,39,112,.25);
+                                }
+                                .dropdown:checked + label:before,
+                                .dropdown:not(:checked) + label:before{
+                                  position: fixed;
+                                  top: 0;
+                                  left: 0;
+                                  content: '';
+                                  width: 100%;
+                                  height: 100%;
+                                  z-index: -1;
+                                  cursor: auto;
+                                  pointer-events: none;
+                                }
+                                .dropdown:checked + label:before{
+                                  pointer-events: auto;
+                                }
+                                .dropdown:not(:checked) + label .uil {
+                                  font-size: 24px;
+                                  margin-left: 10px;
+                                  transition: transform 200ms linear;
+                                }
+                                .dropdown:checked + label .uil {
+                                  transform: rotate(180deg);
+                                  font-size: 24px;
+                                  margin-left: 10px;
+                                  transition: transform 200ms linear;
+                                }
+                                .section-dropdown {
+                                  position: absolute;
+                                  padding: 5px;
+                                  background-color: #111;
+                                  top: 70px;
+                                  left: 0;
+                                  width: 100%;
+                                  border-radius: 4px;
+                                  display: block;
+                                  box-shadow: 0 14px 35px 0 rgba(9,9,12,0.4);
+                                  z-index: 2;
+                                  opacity: 0;
+                                  pointer-events: none;
+                                  transform: translateY(20px);
+                                  transition: all 200ms linear;
+                                }
+                                .dark-light:checked ~ .sec-center .section-dropdown {
+                                  background-color: #fff;
+                                  box-shadow: 0 14px 35px 0 rgba(9,9,12,0.15);
+                                }
+                                .dropdown:checked ~ .section-dropdown{
+                                  opacity: 1;
+                                  pointer-events: auto;
+                                  transform: translateY(0);
+                                }
+                                .section-dropdown:before {
+                                  position: absolute;
+                                  top: -20px;
+                                  left: 0;
+                                  width: 100%;
+                                  height: 20px;
+                                  content: '';
+                                  display: block;
+                                  z-index: 1;
+                                }
+                                .section-dropdown:after {
+                                  position: absolute;
+                                  top: -7px;
+                                  left: 30px;
+                                  width: 0; 
+                                  height: 0; 
+                                  border-left: 8px solid transparent;
+                                  border-right: 8px solid transparent; 
+                                  border-bottom: 8px solid #111;
+                                  content: '';
+                                  display: block;
+                                  z-index: 2;
+                                  transition: all 200ms linear;
+                                }
+                                .dark-light:checked ~ .sec-center .section-dropdown:after {
+                                  border-bottom: 8px solid #fff;
+                                }
+                                
+                                a {
+                                  position: relative;
+                                  color: #fff;
+                                  transition: all 200ms linear;
+                                  font-family: 'Roboto', sans-serif;
+                                  font-weight: 500;
+                                  font-size: 15px;
+                                  border-radius: 2px;
+                                  padding: 5px 0;
+                                  padding-left: 20px;
+                                  padding-right: 15px;
+                                  margin: 2px 0;
+                                  text-align: left;
+                                  text-decoration: none;
+                                  display: -ms-flexbox;
+                                  display: flex;
+                                  -webkit-align-items: center;
+                                  -moz-align-items: center;
+                                  -ms-align-items: center;
+                                  align-items: center;
+                                  justify-content: space-between;
+                                    -ms-flex-pack: distribute;
+                                }
+                                .dark-light:checked ~ .sec-center .section-dropdown a {
+                                  color: #102770;
+                                }
+                                a:hover {
+                                  color: #102770;
+                                  background-color: #ffeba7;
+                                }
+                                .dark-light:checked ~ .sec-center .section-dropdown a:hover {
+                                  color: #ffeba7;
+                                  background-color: #102770;
+                                }
+                                a .uil {
+                                  font-size: 22px;
+                                }
+                                .dropdown-sub:checked + label,
+                                .dropdown-sub:not(:checked) + label{
+                                  position: relative;
+                                  color: #fff;
+                                  transition: all 200ms linear;
+                                  font-family: 'Roboto', sans-serif;
+                                  font-weight: 500;
+                                  font-size: 15px;
+                                  border-radius: 2px;
+                                  padding: 5px 0;
+                                  padding-left: 20px;
+                                  padding-right: 15px;
+                                  text-align: left;
+                                  text-decoration: none;
+                                  display: -ms-flexbox;
+                                  display: flex;
+                                  -webkit-align-items: center;
+                                  -moz-align-items: center;
+                                  -ms-align-items: center;
+                                  align-items: center;
+                                  justify-content: space-between;
+                                    -ms-flex-pack: distribute;
+                                    cursor: pointer;
+                                }
+                                .dropdown-sub:checked + label .uil,
+                                .dropdown-sub:not(:checked) + label .uil{
+                                  font-size: 22px;
+                                }
+                                .dropdown-sub:not(:checked) + label .uil {
+                                  transition: transform 200ms linear;
+                                }
+                                .dropdown-sub:checked + label .uil {
+                                  transform: rotate(135deg);
+                                  transition: transform 200ms linear;
+                                }
+                                .dropdown-sub:checked + label:hover,
+                                .dropdown-sub:not(:checked) + label:hover{
+                                  color: #102770;
+                                  background-color: #ffeba7;
+                                }
+                                .dark-light:checked ~ .sec-center .section-dropdown .for-dropdown-sub{
+                                  color: #102770;
+                                }
+                                .dark-light:checked ~ .sec-center .section-dropdown .for-dropdown-sub:hover{
+                                  color: #ffeba7;
+                                  background-color: #102770;
+                                }
+                                
+                                .section-dropdown-sub {
+                                  position: relative;
+                                  display: block;
+                                  width: 100%;
+                                  pointer-events: none;
+                                  opacity: 0;
+                                  max-height: 0;
+                                  padding-left: 10px;
+                                  padding-right: 3px;
+                                  overflow: hidden;
+                                  transition: all 200ms linear;
+                                }
+                                .dropdown-sub:checked ~ .section-dropdown-sub{
+                                  pointer-events: auto;
+                                  opacity: 1;
+                                  max-height: 999px;
+                                }
+                                .section-dropdown-sub a {
+                                  font-size: 14px;
+                                }
+                                .section-dropdown-sub a .uil {
+                                  font-size: 20px;
+                                }
+                                .logo {
+                                    position: fixed;
+                                    top: 50px;
+                                    left: 40px;
+                                    display: block;
+                                    z-index: 11000000;
+                                  background-color: transparent;
+                                  border-radius: 0;
+                                  padding: 0;
+                                    transition: all 250ms linear;
+                                }
+                                .logo:hover {
+                                  background-color: transparent;
+                                }
+                                .logo img {
+                                    height: 26px;
+                                    width: auto;
+                                    display: block;
+                                  transition: all 200ms linear;
+                                }
+                                .dark-light:checked ~ .logo img{
+                                  filter: brightness(10%);
+                                }
+                                
+                                @media screen and (max-width: 991px) {
+                                .logo {
+                                    top: 30px;
+                                    left: 20px;
+                                }
+                                .dark-light:checked + label,
+                                .dark-light:not(:checked) + label{
+                                  top: 20px;
+                                  right: 20px;
+                                }
+                                }    
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content3" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 2 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/dropdown_2.mp4"></video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn4" class="btn btn-primary" onclick="openHTML2()">HTML</button></li>
+                            <li><button id="btn5" class="btn btn-primary" onclick="openCSS2()">CSS</button></li>
+                            <li><button id="btn6" class="btn btn-primary" onclick="openJS2()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content4" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <div class="dropdown">
+                                    <input type="checkbox" id="dropdown">
+                                  
+                                    <label class="dropdown__face" for="dropdown">
+                                      <div class="dropdown__text">Dropdown</div>
+                                  
+                                      <div class="dropdown__arrow"></div>
+                                    </label>
+                                  
+                                    <ul class="dropdown__items">
+                                      <li>🙂</li>
+                                      <li>😺</li>
+                                      <li>😽</li>
+                                      <li>😎</li>
+                                      <li>🤗</li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <svg>
+                                    <filter id="goo">
+                                      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                      <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                      <feBlend in="SourceGraphic" in2="goo" />
+                                    </filter>
+                                  </svg>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content5" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                .dropdown {
+                                    position: relative;
+                                    width: 230px;
+                                    filter: url(#goo);
+                                  
+                                    &__face,
+                                    &__items {
+                                      background-color: #fff;
+                                      padding: 20px;
+                                      border-radius: 25px;
+                                    }
+                                  
+                                    &__face {
+                                      display: block;
+                                      position: relative;
+                                    }
+                                  
+                                    &__items {
+                                      margin: 0;
+                                      position: absolute;
+                                      right: 0;
+                                      top: 50%;
+                                      width: 100%;
+                                      list-style: none;
+                                      list-style-type: none;
+                                      display: flex;
+                                      justify-content: space-between;
+                                      visibility: hidden;
+                                      z-index: -1;
+                                      opacity: 0;
+                                      transition: all 0.4s cubic-bezier(0.93, 0.88, 0.1, 0.8);
+                                  
+                                      &::before {
+                                        content: "";
+                                        background-color: #fff;
+                                        position: absolute;
+                                        bottom: 100%;
+                                        right: 20%;
+                                        height: 40px;
+                                        width: 20px;
+                                      }
+                                    }
+                                  
+                                    &__arrow {
+                                      border-bottom: 2px solid #000;
+                                      border-right: 2px solid #000;
+                                      position: absolute;
+                                      top: 50%;
+                                      right: 30px;
+                                      width: 10px;
+                                      height: 10px;
+                                      transform: rotate(45deg) translateY(-50%);
+                                      transform-origin: right;
+                                    }
+                                  
+                                    input {
+                                      display: none;
+                                  
+                                      &:checked ~ .dropdown__items {
+                                        top: calc(100% + 25px);
+                                        visibility: visible;
+                                        opacity: 1;
+                                      }
+                                    }
+                                  }
+                                  
+                                  body {
+                                    background-image: linear-gradient(140deg, #e2e2e2, #cdcdcd);
+                                    display: grid;
+                                    place-items: center;
+                                    font-family: "Lato", Arial, sans-serif;
+                                    height: 100vh;
+                                    margin: 0;
+                                  }
+                                  
+                                  * {
+                                    box-sizing: border-box;
+                                  }
+                                  
+                                  svg {
+                                    display: none;
+                                  }
+                                  
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content6" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 3 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/deopdown_3.mp4"></video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn7" class="btn btn-primary" onclick="openHTML3()">HTML</button></li>
+                            <li><button id="btn8" class="btn btn-primary" onclick="openCSS3()">CSS</button></li>
+                            <li><button id="btn9" class="btn btn-primary" onclick="openJS3()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content7" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <nav>
+                                    <ul>
+                                      <li><a href="#0">Home</a></li>
+                                      <li><a href="#0">About</a></li>
+                                      <li>
+                                        <a href="#0">Clients</a>
+                                        <ul>
+                                          <li><a href="#0">Burger King</a></li>
+                                          <li><a href="#0">Southwest Airlines</a></li>
+                                          <li><a href="#0">Levi Strauss</a></li>
+                                        </ul>
+                                      </li>
+                                      <li>
+                                        <a href="#0">Services</a>
+                                        <ul>
+                                          <li><a href="#0">Print Design</a></li>
+                                          <li><a href="#0">Web Design</a></li>
+                                          <li><a href="#0">Mobile App Development</a></li>
+                                        </ul>
+                                      </li>
+                                      <li><a href="#0">Contact</a></li>
+                                    </ul>
+                                  </nav>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content8" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">body {
+                                background: #F9F8FD;
+                                font-family: 'Lexend Exa', sans-serif;
+                              }
+                              
+                              nav {
+                                position: absolute;
+                                top: 15px;
+                                left: 50%;
+                                transform: translateX(-50%);
+                                display: inline-block;
+                                border: 2px solid #EBECF1;
+                                border-radius: 30px;
+                                animation: slide-in 1s ease-out;
+                              }
+                              
+                              ul {
+                                position: relative;
+                                display: flex;
+                                flex: 1 1 auto;
+                                margin: 0;
+                                padding: 0 30px;
+                                list-style-type: none;
+                                li:not(:last-child) {
+                                  margin-right: 40px;
+                                }
+                                li {
+                                  border: 2px solid transparent;
+                                  border-radius: 5px;
+                                  padding: 10px;
+                                  transition: background 0.2s;
+                                  a {
+                                    color: #2375D8;
+                                    text-decoration: none;
+                                    text-transform: uppercase;
+                                    transition: color 0.2s;
+                                  }
+                                  ul {
+                                    visibility: hidden;
+                                    opacity: 0;
+                                    position: absolute;
+                                    display: block;
+                                    margin: 12px -12px;
+                                    padding: 0;
+                                    background: #FFA91B;
+                                    border: 2px solid #F7C833;
+                                    border-right: 2px solid #F89329;
+                                    border-bottom: 2px solid #F89329;
+                                    border-radius: 5px;
+                                    transition: opacity 0.2s, visibility 0.2s;
+                                    li {
+                                      margin: -2px 0 0 -2px;
+                                      width: calc(100% - 20px);
+                                      line-height: 1.7;
+                                      a {
+                                        color: #2375D8;
+                                      }
+                                    }
+                                  }
+                                  &:hover {
+                                    background: #EC4138;
+                                    border: 2px solid #F05749;
+                                    border-right: 2px solid #E02A21;
+                                    border-bottom: 2px solid #E02A21;
+                                    a {
+                                      color: #F9F8FD;
+                                    }
+                                    ul {
+                                      visibility: visible;
+                                      opacity: 1;
+                                      box-shadow: 0px 3px 5px 2px #EBECF1;
+                                      li {
+                                        a {
+                                          color: #F9F8FD;
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                              
+                              @keyframes slide-in {
+                                0% {
+                                  top: -50px;
+                                }
+                                40% {
+                                  top: 20px;
+                                }
+                                70% {
+                                  top: 10px;
+                                }
+                                100% {
+                                  top: 15px;
+                                }
+                              }</textarea disabled>
+                        </div>
+
+                        <div id="content9" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 4 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/dropdown_4.mp4"></video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn10" class="btn btn-primary" onclick="openHTML4()">HTML</button></li>
+                            <li><button id="btn11" class="btn btn-primary" onclick="openCSS4()">CSS</button></li>
+                            <li><button id="btn12" class="btn btn-primary" onclick="openJS4()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content10" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <div class="container">
+                                    <nav>
+                                     <input id="toggle" type="checkbox" checked>
+                                    <h2>Drop Down Menu</h2>
+                                  <ul>
+                                    <li><a href="#chapter1">Chapter 01</a></li>
+                                    <li><a href="#chapter2">Chapter 02</a></li>
+                                    <li><a href="#chapter3">Chapter 03</a></li>
+                                    <li><a href="#chapter4">Chapter 04</a></li>
+                                  </ul>
+                               </nav>
+                                 <h2 id="chapter1">Some chapter about wheat.</h2>
+                                 <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                 <h2 id="chapter2">Some chapter about wheat.</h2>
+                                 <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                 <h2 id="chapter3">Some chapter about wheat.</h2>
+                                 <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                 <h2 id="chapter3">Some chapter about wheat.</h2>
+                                 <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                 <h2 id="chapter4">Some chapter about wheat.</h2>
+                                 <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                                   <p>
+                                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ex molestiae sint corrupti excepturi consequuntur sequi, enim adipisci aperiam iure nobis nesciunt tempora itaque, quos officia mollitia recusandae asperiores. Dignissimos?
+                                 </p>
+                               </div>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content11" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                body {
+                                    background: #ece5da;
+                                    font-family: "Raleway", sans-serif;
+                                    color: ivory;
+                                    font-size: 20px;
+                                  }
+                                  
+                                  nav {
+                                    margin: auto;
+                                    margin-top: 40px;
+                                    position: relative;
+                                    width: clamp(320px, 50vw ,100%);
+                                  }
+                                  
+                                  nav h2 {
+                                    font-size: 1.5rem;
+                                    border-radius: 2px;
+                                    position: relative;
+                                    background: tomato;
+                                    height: 40px;
+                                    text-transform: uppercase;
+                                    margin-bottom: 0;
+                                    color: inherit;
+                                    font-weight: 200;
+                                    display: flex;
+                                    flex: 1;
+                                    justify-content: center;
+                                    align-items: center;
+                                    box-shadow: 4px 4px 20px -2px rgba(0, 0, 0, 0.35);
+                                    transition: all 0.4s;
+                                  }
+                                  
+                                  nav:hover h2 {
+                                    transform: translateY(-2px);
+                                    box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.35);
+                                    transistion: all 0.4s;
+                                  }
+                                  
+                                  #toggle {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    width: 100%;
+                                    z-index: 1;
+                                    opacity: 0;
+                                    cursor: pointer;
+                                    height: 40px;
+                                  }
+                                  
+                                  h2::before{
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    height: inherit;
+                                    aspect-ratio: 1;
+                                    background: currentColor;
+                                    display: flex;
+                                    align-items: center;
+                                    padding-right: 1rem;
+                                    content: "";
+                                    clip-path: polygon(50% 25%, 20% 80%, 80% 80%);
+                                    transform: rotate(180deg) scale(0.75);
+                                  }
+                                  
+                                  #toggle:not(:checked) ~ h2::before {
+                                    transform: rotate(0deg) scale(0.75);
+                                  }
+                                  
+                                  #toggle:focus ~ h2{
+                                    background: mediumorchid;
+                                    transition: background 0.45s;
+                                  }
+                                  
+                                  #toggle:checked ~ ul {
+                                    visibility: hidden;
+                                    opacity: 0;
+                                  }
+                                  
+                                  #toggle:not(:checked) ~ ul {
+                                    opacity: 1;
+                                    transition: opacity 0.3s ease-in-out;
+                                  }
+                                  
+                                  
+                                  nav ul {
+                                    padding-left: 0;
+                                    padding-top: 1rem;
+                                    margin-top: 0;
+                                    background: #ece5da;
+                                    list-style: none;
+                                    overflow: hidden;
+                                    text-align: right;
+                                    text-align: center;
+                                    transition: all 0.4s ease-out;
+                                    width: 100%;
+                                    position: absolute;
+                                  }
+                                  nav ul li {
+                                    border-radius: 2px;
+                                    position: relative;
+                                    display: inline-block;
+                                    line-height: 1.5;
+                                    width: 100%;
+                                    margin: 0 0 0.25rem 0;
+                                    background: tomato;
+                                    transition: background 3s;
+                                    box-shadow: 2px 2px 10px -2px rgba(0, 0, 0, 0.35);
+                                  }
+                                  
+                                  nav ul li:hover,
+                                  nav ul li a:focus {
+                                    background: mediumorchid;
+                                    transition: background 0.45s;
+                                  }
+                                  
+                                  nav ul a {
+                                    display: block;
+                                    color: inherit;
+                                    text-transform: lowercase;
+                                    font-weight: 200;
+                                    text-decoration: none;
+                                  }
+                                  
+                                  
+                                  .container {
+                                    max-width: 55ch;
+                                    margin: auto;
+                                    color: #36454F;
+                                  }
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content12" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 5 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/dropdown_5.mp4"></video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn13" class="btn btn-primary" onclick="openHTML5()">HTML</button></li>
+                            <li><button id="btn14" class="btn btn-primary" onclick="openCSS5()">CSS</button></li>
+                            <li><button id="btn15" class="btn btn-primary" onclick="openJS5()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content13" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <!DOCTYPE html>
+<html>
+  <body>
+    <div id="div1">
+      <div id="rock1"></div>
+      <div id="rock2"></div>
+      <div id="rock3"></div>
+      <div id="rock4"></div>
+      <div id="rock5"></div>
+      <div id="rock6"></div>
+      <div id="rock7"></div>
+      <div id="rock8"></div>
+      <div id="diva1">
+        <img id="img1" src="https://image.flaticon.com/icons/png/512/78/78075.png">
+        <div id="divaa1">
+          <input id="btna1" type="button" value="Theme">
+          <input id="btna2" type="button" value="Profile">
+          <input id="btna3" type="button" value="More">
+          <img id="img2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Windows_Settings_app_icon.png/768px-Windows_Settings_app_icon.png">
+          <div id="divaaa1"></div>
+        </div>
+        <div id="divaa2">
+          <img id="img3" src="https://openclipart.org/image/2400px/svg_to_png/399/molumen-phone-icon.png">
+          <div id="divaaa2"></div>
+          <input id="btnb1" type="button" value="Phone">
+          <input id="btnb2" type="button" value="Call">
+        </div>
+        <div id="divaa3">
+          <input id="btnc1" type="button" value="About">
+          <input id="btnc2" type="button" value="Creator" onclick="location.href="https://codepen.io/bowties/">
+          <input id="btnc3" type="button" value="More">
+          <img id="img3" src="https://image.flaticon.com/icons/svg/32/32175.svg">
+          <div id="divaaa3"></div>
+          <div id="divaaa4"></div>
+        </div>
+      </div>
+    </div>
+    </body>
+  </html>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content14" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                body{
+                                    background:rgb(0, 45, 60);
+                                  }
+                                  #rock1{
+                                    position:absolute;
+                                    left:-30px;
+                                    top:0px;
+                                    width:40px;
+                                    height:40px;
+                                    transform:rotate(45deg);
+                                    animation:b 6s infinite;
+                                  }
+                                  #rock2{
+                                    position:absolute;
+                                    left:200px;
+                                    top:-25px;
+                                    width:40px;
+                                    height:40px;
+                                    transform:rotate(45deg);
+                                    animation:a 6s infinite;
+                                  }
+                                  #rock3{
+                                    position:absolute;
+                                    left:585px;
+                                    top:5px;
+                                    width:40px;
+                                    height:40px;
+                                    transform:rotate(45deg);
+                                    animation:a 6s infinite;
+                                  }
+                                  #rock4{
+                                    position:absolute;
+                                    left:385px;
+                                    top:90px;
+                                    width:40px;
+                                    height:40px;
+                                    transform:rotate(45deg);
+                                    animation:b 6s infinite;
+                                  }
+                                  #rock5{
+                                    position:absolute;
+                                    left:60px;
+                                    top:140px;
+                                    width:25px;
+                                    height:25px;
+                                    transform:rotate(45deg);
+                                    animation:a 6s infinite;
+                                  }
+                                  #rock6{
+                                    position:absolute;
+                                    left:500px;
+                                    top:-25px;
+                                    width:25px;
+                                    height:25px;
+                                    transform:rotate(45deg);
+                                    animation:a 6s infinite;
+                                  }
+                                  #rock7{
+                                    position:absolute;
+                                    left:60px;
+                                    top:-55px;
+                                    width:25px;
+                                    height:25px;
+                                    transform:rotate(45deg);
+                                    animation:b 6s infinite;
+                                  }
+                                  #rock8{
+                                    position:absolute;
+                                    left:530px;
+                                    top:130px;
+                                    width:25px;
+                                    height:25px;
+                                    transform:rotate(45deg);
+                                    animation:b 6s infinite;
+                                  }
+                                  @keyframes a{
+                                    0%{
+                                      background:transparent;
+                                    }
+                                    50%{
+                                      background:darkorange;
+                                    }
+                                    100%{
+                                      background:transparent;
+                                    }
+                                  }
+                                  @keyframes b{
+                                    0%{
+                                      background:darkorange;
+                                    }
+                                    50%{
+                                      background:transparent;
+                                    }
+                                    100%{
+                                      background:darkorange;
+                                    }
+                                  }
+                                  #div1{
+                                    position:absolute;
+                                    left:calc(50% - 300px);
+                                    top:calc(50% - 150px);
+                                    width:600px;
+                                    height:100px;
+                                    border:20px solid rgb(60, 60, 60);
+                                    border-radius:100px;
+                                  }
+                                  #diva1{
+                                    position:absolute;
+                                    width:590px;
+                                    height:90px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #img1{
+                                    position:absolute;
+                                    left:15px;
+                                    top:15px;
+                                    width:60px;
+                                  }
+                                  #img2{
+                                    position:absolute;
+                                    left:10px;
+                                    top:10px;
+                                    width:60px;
+                                  }
+                                  #img3{
+                                    position:absolute;
+                                    left:10px;
+                                    top:10px;
+                                    width:60px;
+                                  }
+                                  #divaa1{
+                                    position:absolute;
+                                    left:150px;
+                                    width:80px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #divaa1:hover{
+                                    height:250px;
+                                  }
+                                  #divaa1:hover > #divaaa1{
+                                    height:180px;
+                                    border:5px solid orange;
+                                  }
+                                  #divaaa1{
+                                    position:absolute;
+                                    top:-5px;
+                                    left:75px;
+                                    width:40px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #divaa2{
+                                    position:absolute;
+                                    left:300px;
+                                    width:80px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #divaa2:hover{
+                                    height:200px;
+                                  }
+                                  #divaa2:hover > #divaaa2{
+                                    height:230px;
+                                  }
+                                  #divaaa2{
+                                    position:absolute;
+                                    top:-5px;
+                                    left:-25px;
+                                    width:25px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #divaa3{
+                                    position:absolute;
+                                    left:450px;
+                                    width:80px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #divaa3:hover{
+                                    height:260px;
+                                  }
+                                  #divaa3:hover > #divaaa3{
+                                    height:200px;
+                                  }
+                                  #divaa3:hover > #divaaa4{
+                                    height:140px;
+                                  }
+                                  #divaaa3{
+                                    position:absolute;
+                                    top:-5px;
+                                    left:-50px;
+                                    width:40px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #divaaa4{
+                                    position:absolute;
+                                    top:-5px;
+                                    left:75px;
+                                    width:25px;
+                                    height:80px;
+                                    border:5px solid orange;
+                                    border-radius:100px;
+                                    background:orange;
+                                    transition:.6s;
+                                  }
+                                  #btna1{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa1:hover > #btna1{
+                                    top:90px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btna2{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa1:hover > #btna2{
+                                    top:140px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btna3{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa1:hover > #btna3{
+                                    top:190px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btnb1{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa2:hover > #btnb1{
+                                    top:90px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btnb2{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa2:hover > #btnb2{
+                                    top:140px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btnc1{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa3:hover > #btnc1{
+                                    top:90px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btnc2{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa3:hover > #btnc2{
+                                    top:140px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                                  #btnc3{
+                                    position:absolute;
+                                    top:0px;
+                                    background:transparent;
+                                    width:75px;
+                                    color:transparent;
+                                    padding-top:5px;
+                                    padding-bottom:5px;
+                                    font-family:Georgia, serif;
+                                    font-size:15px;
+                                    border:2.5px solid transparent;
+                                    border-radius:100px;
+                                    cursor:pointer;
+                                    transition:.6s;
+                                  }
+                                  #divaa3:hover > #btnc3{
+                                    top:190px;
+                                    color:black;
+                                    background:dimgrey;
+                                    padding-bottom:5px;
+                                  }
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content15" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====================== CONTENT END =================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <script src="/public/js/main.js"></script>
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================= Script for content =============== -->
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        function openHTML() {
+            content1.style.transform = "translateX(-54.2rem)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+        }
+
+
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(-54.2rem)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#ff7846";
+            btn3.style.color = "#000";
+        }
+
+        function openJS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(-54.2rem)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#000";
+            btn3.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 2 Script ================= -->
+
+    <script>
+        var content4 = document.getElementById("content4");
+        var content5 = document.getElementById("content5");
+        var content6 = document.getElementById("content6");
+
+        var btn4 = document.getElementById("btn4")
+        var btn5 = document.getElementById("btn5")
+        var btn6 = document.getElementById("btn6")
+
+        function openHTML2() {
+            content4.style.transform = "translateX(-54.2rem)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#ff7846";
+            btn5.style.color = "#000";
+            btn6.style.color = "#000";
+        }
+
+
+        function openCSS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(-54.2rem)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#ff7846";
+            btn6.style.color = "#000";
+        }
+
+        function openJS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(-54.2rem)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#000";
+            btn6.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 3 Script ================= -->
+
+    <script>
+        var content7 = document.getElementById("content7");
+        var content8 = document.getElementById("content8");
+        var content9 = document.getElementById("content9");
+
+        var btn7 = document.getElementById("btn7")
+        var btn8 = document.getElementById("btn8")
+        var btn9 = document.getElementById("btn9")
+
+        function openHTML3() {
+            content7.style.transform = "translateX(-54.2rem)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#ff7846";
+            btn8.style.color = "#000";
+            btn9.style.color = "#000";
+        }
+
+
+        function openCSS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(-54.2rem)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#ff7846";
+            btn9.style.color = "#000";
+        }
+
+        function openJS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(-54.2rem)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#000";
+            btn9.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 4 Script ================= -->
+
+    <script>
+        var content10 = document.getElementById("content10");
+        var content11 = document.getElementById("content11");
+        var content12 = document.getElementById("content12");
+
+        var btn10 = document.getElementById("btn10")
+        var btn11 = document.getElementById("btn11")
+        var btn12 = document.getElementById("btn12")
+
+        function openHTML4() {
+            content10.style.transform = "translateX(-54.2rem)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#ff7846";
+            btn11.style.color = "#000";
+            btn12.style.color = "#000";
+        }
+
+
+        function openCSS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(-54.2rem)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#ff7846";
+            btn12.style.color = "#000";
+        }
+
+        function openJS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(-54.2rem)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#000";
+            btn12.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 5 Script ================= -->
+
+    <script>
+        var content13 = document.getElementById("content13");
+        var content14 = document.getElementById("content14");
+        var content15 = document.getElementById("content15");
+
+        var btn13 = document.getElementById("btn13")
+        var btn14 = document.getElementById("btn14")
+        var btn15 = document.getElementById("btn15")
+
+        function openHTML5() {
+            content13.style.transform = "translateX(-54.2rem)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#ff7846";
+            btn14.style.color = "#000";
+            btn15.style.color = "#000";
+        }
+
+
+        function openCSS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(-54.2rem)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#ff7846";
+            btn15.style.color = "#000";
+        }
+
+        function openJS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(-54.2rem)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#000";
+            btn15.style.color = "#ff7846";
+        }
+    </script>
+
+
+
+    <!-- ================== FOOTER STARTED ================== -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#" class="footer_logo">
+                    <h4>Code Web</h4>
+                </a>
+                <p>
+                  Community were you can get source code to customize your website with different kind of elements.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/public/html/about.html">About</a></li>
+                    <li><a href="/public/html/contact.html">Contact</a></li>
+                    <li><a href="/public/html/categories.html">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>codeweb@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Code Web</small>
+        </div>
+    </footer>
+    <!-- =================== FOOTER END ================== -->
+
+
+    <script src="/public/js/profile.js"></script>
+
+
+
+
+</body>
+
+</html>

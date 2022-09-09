@@ -1,0 +1,1444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Google Font -> Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <title>
+        codeweb.com
+    </title>
+
+    <link rel="stylesheet" href="/public/css/categories.css" />
+
+    <!-- IconScout CDN -> For using icon as a font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- =================== NAVBAR STARTED -->
+    <nav>
+        <div class="container nav_container">
+            <!-- Pages -->
+            <a href="/">
+                <img src="/public/media/images/finallogowhite-removebg-preview.png" alt="">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/public/html/about.html">About</a></li>
+                <li><a href="/public/html/contact.html">Contact</a></li>
+                <li><a href="/public/html/categories.html">Categories</a></li>
+                
+            </ul>
+
+            <!-- Button -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================= NAVBAR END ======================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================== SIDE NAVBAR STARTED ======================= -->
+    <navyo>
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="/public/html/breadcrumbs.html"><i class="fas"></i>Breadcrumbs</a></li>
+                    <li><a href="/public/html/buttons_3d.html"><i class="fas"></i>3d Buttons</a></li>
+                    <li><a href="/public/html/buttons.html"><i class="fas"></i>Buttons</a></li>
+                    <li><a href="/public/html/cards.html"><i class="fas"></i>Cards</a></li>
+                    <li><a href="/public/html/carousels.html"><i class="fas"></i>Carousels</a></li>
+                    <li><a href="/public/html/close_button.html"><i class="fas"></i>Close Button</a></li>
+                    <li><a href="/public/html/dropdown_menu.html"><i class="fas"></i>Dropdown Menu</a></li>
+                    <li><a href="/public/html/off_canvas.html"><i class="fas"></i>Off-canvas</a></li>
+                </ul>
+            </div>
+        </div>
+    </navyo>
+
+    <!-- ================== SIDE NAVBAR END ======================= -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ====================== CONTENT STARTED =================== -->
+
+    <section class="courses">
+        <h2>Cards</h2>
+
+        <div class="container courses_container">
+            <!-- ================= Article 1 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/cards/css-only-slide-up-caption-hover-effect.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn1" class="btn btn-primary" onclick="openHTML()">HTML</button></li>
+                            <li><button id="btn2" class="btn btn-primary" onclick="openCSS()">CSS</button></li>
+                            <li><button id="btn3" class="btn btn-primary" onclick="openJS()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content1" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <ul class="cards">
+                                    <li>
+                                      <a href="" class="card">
+                                        <img src="https://i.imgur.com/oYiTqum.jpg" class="card__image" alt="" />
+                                        <div class="card__overlay">
+                                          <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                                            <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                                            <div class="card__header-text">
+                                              <h3 class="card__title">Jessica Parker</h3>            
+                                              <span class="card__status">1 hour ago</span>
+                                            </div>
+                                          </div>
+                                          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                        </div>
+                                      </a>      
+                                    </li>
+                                    <li>
+                                      <a href="" class="card">
+                                        <img src="https://i.imgur.com/2DhmtJ4.jpg" class="card__image" alt="" />
+                                        <div class="card__overlay">        
+                                          <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                                            <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                                            <div class="card__header-text">
+                                              <h3 class="card__title">kim Cattrall</h3>
+                                              <span class="card__status">3 hours ago</span>
+                                            </div>
+                                          </div>
+                                          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="" class="card">
+                                        <img src="https://i.imgur.com/oYiTqum.jpg" class="card__image" alt="" />
+                                        <div class="card__overlay">
+                                          <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                                            <img class="card__thumb" src="https://i.imgur.com/7D7I6dI.png" alt="" />
+                                            <div class="card__header-text">
+                                              <h3 class="card__title">Jessica Parker</h3>
+                                              <span class="card__tagline">Lorem ipsum dolor sit amet consectetur</span>            
+                                              <span class="card__status">1 hour ago</span>
+                                            </div>
+                                          </div>
+                                          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                        </div>
+                                      </a>
+                                    </li>
+                                    <li>
+                                      <a href="" class="card">
+                                        <img src="https://i.imgur.com/2DhmtJ4.jpg" class="card__image" alt="" />
+                                        <div class="card__overlay">
+                                          <div class="card__header">
+                                            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                                            <img class="card__thumb" src="https://i.imgur.com/sjLMNDM.png" alt="" />
+                                            <div class="card__header-text">
+                                              <h3 class="card__title">kim Cattrall</h3>
+                                              <span class="card__status">3 hours ago</span>
+                                            </div>          
+                                          </div>
+                                          <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+                                        </div>
+                                      </a>
+                                    </li>    
+                                  </ul></textarea disabled>
+                        </div>
+
+                        <div id="content2" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                :root {
+                                    --surface-color: #fff;
+                                    --curve: 40;
+                                  }
+                                  
+                                  * {
+                                    box-sizing: border-box;
+                                  }
+                                  
+                                  body {
+                                    font-family: 'Noto Sans JP', sans-serif;
+                                    background-color: #fef8f8;
+                                  }
+                                  
+                                  .cards {
+                                    display: grid;
+                                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                                    gap: 2rem;
+                                    margin: 4rem 5vw;
+                                    padding: 0;
+                                    list-style-type: none;
+                                  }
+                                  
+                                  .card {
+                                    position: relative;
+                                    display: block;
+                                    height: 100%;  
+                                    border-radius: calc(var(--curve) * 1px);
+                                    overflow: hidden;
+                                    text-decoration: none;
+                                  }
+                                  
+                                  .card__image {      
+                                    width: 100%;
+                                    height: auto;
+                                  }
+                                  
+                                  .card__overlay {
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    right: 0;
+                                    z-index: 1;      
+                                    border-radius: calc(var(--curve) * 1px);    
+                                    background-color: var(--surface-color);      
+                                    transform: translateY(100%);
+                                    transition: .2s ease-in-out;
+                                  }
+                                  
+                                  .card:hover .card__overlay {
+                                    transform: translateY(0);
+                                  }
+                                  
+                                  .card__header {
+                                    position: relative;
+                                    display: flex;
+                                    align-items: center;
+                                    gap: 2em;
+                                    padding: 2em;
+                                    border-radius: calc(var(--curve) * 1px) 0 0 0;    
+                                    background-color: var(--surface-color);
+                                    transform: translateY(-100%);
+                                    transition: .2s ease-in-out;
+                                  }
+                                  
+                                  .card__arc {
+                                    width: 80px;
+                                    height: 80px;
+                                    position: absolute;
+                                    bottom: 100%;
+                                    right: 0;      
+                                    z-index: 1;
+                                  }
+                                  
+                                  .card__arc path {
+                                    fill: var(--surface-color);
+                                    d: path("M 40 80 c 22 0 40 -22 40 -40 v 40 Z");
+                                  }       
+                                  
+                                  .card:hover .card__header {
+                                    transform: translateY(0);
+                                  }
+                                  
+                                  .card__thumb {
+                                    flex-shrink: 0;
+                                    width: 50px;
+                                    height: 50px;      
+                                    border-radius: 50%;      
+                                  }
+                                  
+                                  .card__title {
+                                    font-size: 1em;
+                                    margin: 0 0 .3em;
+                                    color: #6A515E;
+                                  }
+                                  
+                                  .card__tagline {
+                                    display: block;
+                                    margin: 1em 0;
+                                    font-family: "MockFlowFont";  
+                                    font-size: .8em; 
+                                    color: #D7BDCA;  
+                                  }
+                                  
+                                  .card__status {
+                                    font-size: .8em;
+                                    color: #D7BDCA;
+                                  }
+                                  
+                                  .card__description {
+                                    padding: 0 2em 2em;
+                                    margin: 0;
+                                    color: #D7BDCA;
+                                    font-family: "MockFlowFont";   
+                                    display: -webkit-box;
+                                    -webkit-box-orient: vertical;
+                                    -webkit-line-clamp: 3;
+                                    overflow: hidden;
+                                  }    </textarea disabled>
+                        </div>
+
+                        <div id="content3" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 2 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/video/cards/achterbahnreporter.png"alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn4" class="btn btn-primary" onclick="openHTML2()">HTML</button></li>
+                            <li><button id="btn5" class="btn btn-primary" onclick="openCSS2()">CSS</button></li>
+                            <li><button id="btn6" class="btn btn-primary" onclick="openJS2()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content4" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <header>
+                                    <span class="siteTitle">achterbahnreporter<span>
+                                  </header>
+                                  
+                                  <main>
+                                    <a href="https://google.com" class="card">
+                                        <div class="inner">
+                                          <h2 class="title">Mit 117 Sachen durch Klugheimschen Basaltgebirge</h2>
+                                          <time class="subtitle">03. März 2021<time>
+                                        </div>
+                                    </a>
+                                          
+                                    <a href="https://google.com" class="card card2">
+                                        <div class="inner">
+                                          <h2 class="title">Mit 117 Sachen durch Klugheimschen Basaltgebirge</h2>
+                                          <time class="subtitle">03. März 2021<time>
+                                        </div>
+                                    </a>
+                                  
+                                    <a href="https://google.com" class="card card3">
+                                        <div class="inner">
+                                          <h2 class="title">Mit 117 Sachen durch Klugheimschen Basaltgebirge</h2>
+                                          <time class="subtitle">03. März 2021<time>
+                                        </div>
+                                    </a>
+                                  <main>
+                                    
+                                  <footer>
+                                    <a class="footerLink" href="/impressum">Datenschutz</a>
+                                    <a class="footerLink" href="/impressum">Impressum</a>
+                                  </footer></textarea disabled>
+                        </div>
+
+                        <div id="content5" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                @mixin media() {
+                                    @media (min-width: 768px) {
+                                        @content;
+                                    }
+                                }
+                                
+                                body, html {
+                                  font-family: 'Vollkorn', serif;
+                                  font-weight: 400;
+                                  line-height: 1.3;
+                                  font-size: 16px;
+                                }
+                                
+                                .siteTitle {
+                                  display: block;
+                                  font-weight: 900;
+                                  font-size: 30px;
+                                  margin: 20px 0;
+                                  
+                                  @include media {
+                                    font-size: 60px;
+                                  }
+                                }
+                                
+                                header,
+                                main,
+                                footer {
+                                  max-width: 960px;
+                                  margin: 0 auto;
+                                }
+                                
+                                .card {
+                                  height: 400px;
+                                  position: relative;
+                                  padding: 20px;
+                                  box-sizing: border-box;
+                                  display: flex;
+                                  align-items: flex-end;
+                                  text-decoration: none;
+                                  border: 4px solid #b0215e;
+                                  margin-bottom: 20px;
+                                  background-image: url('https://images.unsplash.com/photo-1516051662687-567d7c4e8f6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80');
+                                    background-size: cover;
+                                  
+                                  @include media {
+                                    height: 500px;
+                                  }
+                                }
+                                
+                                .inner {
+                                  height: 50%;
+                                  display: flex;
+                                  flex-direction: column;
+                                  justify-content: center;
+                                  align-items: center; 
+                                  background: white;
+                                  box-sizing: border-box;
+                                  padding: 40px;
+                                  
+                                  @include media {
+                                    width: 50%;
+                                    height: 100%;
+                                  }
+                                }
+                                
+                                .title {
+                                  font-size: 24px;
+                                  color: black;  
+                                  text-align: center;
+                                  font-weight: 700;
+                                  color: #181818;
+                                  text-shadow: 0px 2px 2px #a6f8d5;
+                                  position: relative;
+                                  margin: 0 0 20px 0;
+                                  
+                                  @include media {
+                                    font-size: 30px;
+                                  }
+                                }
+                                
+                                .subtitle {
+                                  color: #b0215e;
+                                  text-align: center;
+                                }
+                                
+                                .card2 {
+                                  background-image: url('https://images.unsplash.com/photo-1496317556649-f930d733eea3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+                                }
+                                
+                                .card3 {
+                                  background-image: url('https://images.unsplash.com/photo-1557576842-3bc6093a5085?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+                                }
+                                
+                                footer {
+                                  display: flex;
+                                  justify-content: center;
+                                  margin: 40px 0;
+                                }
+                                
+                                .footerLink {
+                                  margin-right: 12px;
+                                  color: #181818;
+                                  text-decoration: none;
+                                  position: relative;
+                                  
+                                  &:after {
+                                    content: "";
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 4px;
+                                    background-color: rgba(#b0215e, 0.3);
+                                    left: 0;
+                                    bottom: 0;
+                                  }
+                                  
+                                  &:last-child {
+                                    margin-right: 0;
+                                  }
+                                }  </textarea disabled>
+                        </div>
+
+                        <div id="content6" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 3 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/cards/card.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn7" class="btn btn-primary" onclick="openHTML3()">HTML</button></li>
+                            <li><button id="btn8" class="btn btn-primary" onclick="openCSS3()">CSS</button></li>
+                            <li><button id="btn9" class="btn btn-primary" onclick="openJS3()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content7" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <div class="container">
+                                    <div class="content">
+                                      <h1>Pratham</h1>
+                                      <h3>I love designing websites and keep things as simple as possible. My goals is to focus on minimalism and conveying the message that you want to send</h3>
+                                    </div>
+                                    <div class="flap"></div>
+                                  </div></textarea disabled>
+                        </div>
+
+                        <div id="content8" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap');
+
+body {
+  background: #f2f2f2;
+}
+
+.container  {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 600px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.flap {
+  width: 100%;
+  height: 100%;
+}
+
+.flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background-position: 100px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("https://pbs.twimg.com/profile_images/1347260174176710658/2GfSZ1i__400x400.jpg") white;
+  background-position: -200px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.container:hover .flap::after {
+  transform: translatex(300px);
+}
+
+.container:hover .flap::before{
+  transform: translatex(-300px);
+}</textarea disabled>
+                        </div>
+
+                        <div id="content9" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 4 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/cards/product-card-ui-hover-floating.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn10" class="btn btn-primary" onclick="openHTML4()">HTML</button></li>
+                            <li><button id="btn11" class="btn btn-primary" onclick="openCSS4()">CSS</button></li>
+                            <li><button id="btn12" class="btn btn-primary" onclick="openJS4()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content10" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <div class="container">
+                                    <div class="card">
+                                      <div class="imgBx">
+                                        <img src="https://assets.codepen.io/4164355/shoes.png">
+                                      </div>
+                                      <div class="contentBx">
+                                        <h2>Nike Shoes</h2>
+                                        <div class="size">
+                                          <h3>Size :</h3>
+                                          <span>7</span>
+                                          <span>8</span>
+                                          <span>9</span>
+                                          <span>10</span>
+                                        </div>
+                                        <div class="color">
+                                          <h3>Color :</h3>
+                                          <span></span>
+                                          <span></span>
+                                          <span></span>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                      </div>
+                                    </div>
+                                  </div>  </textarea disabled>
+                        </div>
+
+                        <div id="content11" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #131313;
+}
+
+.container{
+  position: relative;
+}
+
+.container .card{
+  position: relative;
+  width: 320px;
+  height: 450px;
+  background: #232323;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.container .card:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #9bdc28;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before{
+  clip-path: circle(300px at 80% -20%);
+}
+
+.container .card:after{
+  content: 'Nike';
+  position: absolute;
+  top: 30%;
+  left: -20%;
+  font-size: 12em;
+  font-weight: 800;
+  font-style: italic;
+  color: rgba(255,255,25,0.05)
+}
+
+.container .card .imgBx{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.container .card:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+    
+}
+
+.container .card .imgBx img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-25deg);
+  width: 270px;
+}
+
+.container .card .contentBx{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.container .card:hover .contentBx{
+  height: 210px;
+}
+
+.container .card .contentBx h2{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.container .card .contentBx .size, .container .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container .card:hover .contentBx .size{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.container .card:hover .contentBx .color{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.container .card .contentBx .size h3, .container .card .contentBx .color h3{
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+.container .card .contentBx .size span{
+  width: 26px;
+  height: 26px;
+  text-align: center;
+  line-height: 26px;
+  font-size: 14px;
+  display: inline-block;
+  color: #111;
+  background: #fff;
+  margin: 0 5px;
+  transition: 0.5s;
+  color: #111;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container .card .contentBx .size span:hover{
+  background: #9bdc28;
+}
+
+.container .card .contentBx .color span{
+  width: 20px;
+  height: 20px;
+  background: #ff0;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.container .card .contentBx .color span:nth-child(2){
+  background: #9bdc28;
+}
+
+.container .card .contentBx .color span:nth-child(3){
+  background: #03a9f4;
+}
+
+.container .card .contentBx .color span:nth-child(4){
+  background: #e91e63;
+}
+
+.container .card .contentBx a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.5s;
+  margin-top: 0;
+}
+
+.container .card:hover .contentBx a{
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.75s;
+  
+}
+</textarea disabled>
+                        </div>
+
+                        <div id="content12" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 5 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/cards/product-card.mp4">
+                        Your browser does not support the HTML5 Video element.
+                    </video>
+                 
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn13" class="btn btn-primary" onclick="openHTML5()">HTML</button></li>
+                            <li><button id="btn14" class="btn btn-primary" onclick="openCSS5()">CSS</button></li>
+                            <li><button id="btn15" class="btn btn-primary" onclick="openJS5()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content13" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Html
+                                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div id="container">	
+	
+	<div class="product-details">
+		
+	<h1>CHRISTMAS TREE</h1>
+	<span class="hint-star star">
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star" aria-hidden="true"></i>
+		<i class="fa fa-star-o" aria-hidden="true"></i>
+	</span>
+		
+			<p class="information">" Let's spread the joy , here is Christmas , the most awaited day of the year.Christmas Tree is what one need the most. Here is the correct tree which will enhance your Christmas.</p>
+
+		
+		
+<div class="control">
+	
+	<button class="btn">
+	 <span class="price">$250</span>
+   <span class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+   <span class="buy">Get now</span>
+ </button>
+	
+</div>
+			
+</div>
+	
+<div class="product-image">
+	
+	<img src="https://images.unsplash.com/photo-1606830733744-0ad778449672?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNocmlzdG1hcyUyMHRyZWV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+	
+
+<div class="info">
+	<h2> Description</h2>
+	<ul>
+		<li><strong>Height : </strong>5 Ft </li>
+		<li><strong>Shade : </strong>Olive green</li>
+		<li><strong>Decoration: </strong>balls and bells</li>
+		<li><strong>Material: </strong>Eco-Friendly</li>
+		
+	</ul>
+</div>
+</div>
+
+</div>
+
+
+</textarea disabled>
+                        </div>
+
+                        <div id="content14" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Css
+                                @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+
+body {
+background: #DFC2F2;
+	background-image: linear-gradient( to right, #ffffb3,#ffe6e6);
+	background-attachment: fixed;	
+	background-size: cover;
+  
+	}
+
+#container{
+	box-shadow: 0 15px 30px 1px grey;
+	background: rgba(255, 255, 255, 0.90);
+	text-align: center;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5em auto;
+	height: 350px;
+	width: 700px;
+  
+	
+}
+
+
+
+.product-details {
+	position: relative;
+	text-align: left;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	width: 40%;
+
+}
+
+#container .product-details h1{
+	font-family: 'Bebas Neue', cursive;
+	display: inline-block;
+	position: relative;
+	font-size: 30px;
+	color: #344055;
+	margin: 0;
+	
+}
+
+#container .product-details h1:before{
+	position: absolute;
+	content: '';
+	right: 0%; 
+	top: 0%;
+	transform: translate(25px, -15px);
+	font-family: 'Bree Serif', serif;
+	display: inline-block;
+	background: #ffe6e6;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 5px;
+	color: white;
+	margin: 0;
+	animation: chan-sh 6s ease infinite;
+
+}
+
+
+
+	
+
+
+.hint-star {
+	display: inline-block;
+	margin-left: 0.5em;
+	color: gold;
+	width: 50%;
+}
+
+
+#container .product-details > p {
+font-family: 'EB Garamond', serif;
+	text-align: center;
+	font-size: 18px;
+	color: #7d7d7d;
+	
+}
+.control{
+	position: absolute;
+	bottom: 20%;
+	left: 22.8%;
+	
+}
+.btn {
+
+	transform: translateY(0px);
+	transition: 0.3s linear;
+	background:  #809fff;
+	border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	color: #eee;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.btn:hover{transform: translateY(-6px);
+	background: #1a66ff;}
+
+.btn span {
+	font-family: 'Farsan', cursive;
+	transition: transform 0.3s;
+	display: inline-block;
+  padding: 10px 20px;
+	font-size: 1.2em;
+	margin:0;
+	
+}
+.btn .price, .shopping-cart{
+	background: #333;
+	border: 0;
+	margin: 0;
+}
+
+.btn .price {
+	transform: translateX(-10%); padding-right: 15px;
+}
+
+.btn .shopping-cart {
+	transform: translateX(-100%);
+  position: absolute;
+	background: #333;
+	z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+.btn .buy {z-index: 3; font-weight: bolder;}
+
+.btn:hover .price {transform: translateX(-110%);}
+
+.btn:hover .shopping-cart {transform: translateX(0%);}
+
+
+
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	float: right;
+	width: 45%;
+	display: inline-block;
+}
+
+#container img {width: 100%;height: 100%;}
+
+.info {
+    background: rgba(27, 26, 26, 0.9);
+    font-family: 'Bree Serif', serif;
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.8;
+    text-align: left;
+    font-size: 105%;
+    cursor: no-drop;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.info h2 {text-align: center}
+.product-image:hover .info{transform: translateX(0);}
+
+.info ul li{transition: 0.3s ease;}
+.info ul li:hover{transform: translateX(50px) scale(1.3);}
+
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}</textarea disabled>
+                        </div>
+
+                        <div id="content15" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====================== CONTENT END =================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <script src="/public/js/main.js"></script>
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================= Script for content =============== -->
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        function openHTML() {
+            content1.style.transform = "translateX(-54.2rem)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+        }
+
+
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(-54.2rem)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#ff7846";
+            btn3.style.color = "#000";
+        }
+
+        function openJS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(-54.2rem)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#000";
+            btn3.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 2 Script ================= -->
+
+    <script>
+        var content4 = document.getElementById("content4");
+        var content5 = document.getElementById("content5");
+        var content6 = document.getElementById("content6");
+
+        var btn4 = document.getElementById("btn4")
+        var btn5 = document.getElementById("btn5")
+        var btn6 = document.getElementById("btn6")
+
+        function openHTML2() {
+            content4.style.transform = "translateX(-54.2rem)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#ff7846";
+            btn5.style.color = "#000";
+            btn6.style.color = "#000";
+        }
+
+
+        function openCSS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(-54.2rem)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#ff7846";
+            btn6.style.color = "#000";
+        }
+
+        function openJS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(-54.2rem)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#000";
+            btn6.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 3 Script ================= -->
+
+    <script>
+        var content7 = document.getElementById("content7");
+        var content8 = document.getElementById("content8");
+        var content9 = document.getElementById("content9");
+
+        var btn7 = document.getElementById("btn7")
+        var btn8 = document.getElementById("btn8")
+        var btn9 = document.getElementById("btn9")
+
+        function openHTML3() {
+            content7.style.transform = "translateX(-54.2rem)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#ff7846";
+            btn8.style.color = "#000";
+            btn9.style.color = "#000";
+        }
+
+
+        function openCSS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(-54.2rem)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#ff7846";
+            btn9.style.color = "#000";
+        }
+
+        function openJS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(-54.2rem)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#000";
+            btn9.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 4 Script ================= -->
+
+    <script>
+        var content10 = document.getElementById("content10");
+        var content11 = document.getElementById("content11");
+        var content12 = document.getElementById("content12");
+
+        var btn10 = document.getElementById("btn10")
+        var btn11 = document.getElementById("btn11")
+        var btn12 = document.getElementById("btn12")
+
+        function openHTML4() {
+            content10.style.transform = "translateX(-54.2rem)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#ff7846";
+            btn11.style.color = "#000";
+            btn12.style.color = "#000";
+        }
+
+
+        function openCSS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(-54.2rem)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#ff7846";
+            btn12.style.color = "#000";
+        }
+
+        function openJS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(-54.2rem)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#000";
+            btn12.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 5 Script ================= -->
+
+    <script>
+        var content13 = document.getElementById("content13");
+        var content14 = document.getElementById("content14");
+        var content15 = document.getElementById("content15");
+
+        var btn13 = document.getElementById("btn13")
+        var btn14 = document.getElementById("btn14")
+        var btn15 = document.getElementById("btn15")
+
+        function openHTML5() {
+            content13.style.transform = "translateX(-54.2rem)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#ff7846";
+            btn14.style.color = "#000";
+            btn15.style.color = "#000";
+        }
+
+
+        function openCSS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(-54.2rem)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#ff7846";
+            btn15.style.color = "#000";
+        }
+
+        function openJS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(-54.2rem)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#000";
+            btn15.style.color = "#ff7846";
+        }
+    </script>
+
+
+
+    <!-- ================== FOOTER STARTED ================== -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#" class="footer_logo">
+                    <h4>Code Web</h4>
+                </a>
+                <p>
+                  Community were you can get source code to customize your website with different kind of elements.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/public/html/about.html">About</a></li>
+                    <li><a href="/public/html/contact.html">Contact</a></li>
+                    <li><a href="/public/html/categories.html">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>codeweb@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Code Web</small>
+        </div>
+    </footer>
+    <!-- =================== FOOTER END ================== -->
+
+    <script src="/public/js/profile.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Google Font -> Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <title>
+        codeweb.com
+    </title>
+
+    <link rel="stylesheet" href="/public/css/categories.css" />
+
+    <!-- IconScout CDN -> For using icon as a font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- =================== NAVBAR STARTED -->
+    <nav>
+        <div class="container nav_container">
+            <!-- Pages -->
+            <a href="/">
+                <img src="/public/media/images/finallogowhite-removebg-preview.png" alt="">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/public/html/about.html">About</a></li>
+                <li><a href="/public/html/contact.html">Contact</a></li>
+                <li><a href="/public/html/categories.html">Categories</a></li>
+                
+            </ul>
+
+            <!-- Button -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================= NAVBAR END ======================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================== SIDE NAVBAR STARTED ======================= -->
+    <navyo>
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="/public/html/breadcrumbs.html"><i class="fas"></i>Breadcrumbs</a></li>
+                    <li><a href="/public/html/buttons_3d.html"><i class="fas"></i>3d Buttons</a></li>
+                    <li><a href="/public/html/buttons.html"><i class="fas"></i>Buttons</a></li>
+                    <li><a href="/public/html/cards.html"><i class="fas"></i>Cards</a></li>
+                    <li><a href="/public/html/carousels.html"><i class="fas"></i>Carousels</a></li>
+                    <li><a href="/public/html/close_button.html"><i class="fas"></i>Close Button</a></li>
+                    <li><a href="/public/html/dropdown_menu.html"><i class="fas"></i>Dropdown Menu</a></li>
+                    <li><a href="/public/html/off_canvas.html"><i class="fas"></i>Off-canvas</a></li>
+                </ul>
+            </div>
+        </div>
+    </navyo>
+
+    <!-- ================== SIDE NAVBAR END ======================= -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ====================== CONTENT STARTED =================== -->
+
+    <section class="courses">
+        <h2>Close Button</h2>
+
+        <div class="container courses_container">
+            <!-- ================= Article 1 ================= -->
+            
+            <article class="course">
+              <div class="course_image">
+                  <img src="/public/media/images/close button_3..gif" alt="Loading ..." />
+              </div>
+              <div class="course_info">
+                  <div class="button_source_code">
+                      <ul>
+                          <li><button id="btn7" class="btn btn-primary" onclick="openHTML3()">HTML</button></li>
+                          <li><button id="btn8" class="btn btn-primary" onclick="openCSS3()">CSS</button></li>
+                          <li><button id="btn9" class="btn btn-primary" onclick="openJS3()">JS</button></li>
+                      </ul>
+                  </div>
+                  <div class="button_content">
+                      <div id="content7" class="button_info">
+                          <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                              <button>
+                                  Close
+                                </button>
+                          </textarea disabled>
+                      </div>
+
+                      <div id="content8" class="button_info">
+                          <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                              @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+html, body {
+margin: 0;
+min-height: 100vh;
+padding: 0;
+}
+
+body {
+background: #8A2387;
+background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+position: relative;
+text-align: center;
+}
+
+button {
+background: none;
+border: 0;
+box-sizing: border-box;
+color: transparent;
+cursor: pointer;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 18px;
+left: 50%;
+letter-spacing: 1.5px;
+line-height: 90px;
+outline: none;
+overflow: hidden;
+padding: 10px 0 0;
+position: absolute;
+text-transform: uppercase;
+top: 50%;
+transform: translate(-50%, -50%);
+transition: all 0.2s ease-in;
+width: 100px;
+}
+
+button::before,
+button::after {
+background-color: white;
+content: '';
+display: block;
+height: 3px;
+left: 0;
+position: absolute;
+transform-origin: center left;
+transition: all 0.2s ease-in;
+width: 141.4214px;
+z-index: -1;
+}
+
+button::before {
+top: 0;
+transform: rotate(45deg);
+}
+
+button::after {
+bottom: 0;
+transform: rotate(-45deg);
+}
+
+button:hover {
+color: #8A2387;
+}
+
+button:hover::before,
+button:hover::after {
+height: 50px;
+transform: rotate(0deg);
+}
+
+                          </textarea disabled>
+                      </div>
+
+                      <div id="content9" class="button_info">
+                          <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                      </div>
+                  </div>
+              </div>
+          </article>
+          
+          <!-- ================= Article 2 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/close butto_1..png" alt="">
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn1" class="btn btn-primary" onclick="openHTML()">HTML</button></li>
+                            <li><button id="btn2" class="btn btn-primary" onclick="openCSS()">CSS</button></li>
+                            <li><button id="btn3" class="btn btn-primary" onclick="openJS()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content1" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <button type="button" class="btn-close">
+                                    <span class="icon-cross"></span>
+                                    <span class="visually-hidden">Close</span>
+                                  </button>
+                                  
+                                  <span class="cross-stand-alone"></span>
+                                  
+                                  <span class="cross-1px"></span>
+                                  
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content2" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                @mixin cross($size: 20px, $color: currentColor, $thickness: 1px) {
+                                    margin: 0;
+                                    padding: 0;
+                                    border: 0;
+                                    background: none;
+                                    position: relative;
+                                    width: $size;
+                                    height: $size;
+                                  
+                                    &:before,
+                                    &:after {
+                                      content: '';
+                                      position: absolute;
+                                      top: ($size - $thickness) / 2;
+                                      left: 0;
+                                      right: 0;
+                                      height: $thickness;
+                                      background: $color;
+                                      border-radius: $thickness;
+                                    }
+                                  
+                                    &:before {
+                                      transform: rotate(45deg);
+                                    }
+                                  
+                                    &:after {
+                                      transform: rotate(-45deg);
+                                    }
+                                  
+                                    span {
+                                      display: block;
+                                    }
+                                  
+                                  }
+                                  
+                                  
+                                  // Example 1.
+                                  .btn-close {
+                                    margin: 0;
+                                    border: 0;
+                                    padding: 0;
+                                    background: hsl(216, 100, 50);
+                                    border-radius: 50%;
+                                    width: 80px;
+                                    height: 80px;
+                                    display: flex;
+                                    flex-flow: column nowrap;
+                                    justify-content: center;
+                                    align-items: center;
+                                    cursor: pointer;
+                                    transition: all 150ms;
+                                    
+                                    .icon-cross {
+                                      @include cross(40px, #fff, 6px);   
+                                    }
+                                    
+                                    &:hover,
+                                    &:focus {
+                                      transform: rotateZ(90deg);
+                                      background: hsl(216, 100, 40);
+                                    }
+                                  
+                                  }
+                                  
+                                  // Example 2.
+                                  .cross-stand-alone {
+                                    @include cross(40px, #000, 4px);  
+                                  }
+                                  
+                                  
+                                  // Example 3.
+                                  .cross-1px {
+                                    @include cross(80px, #000);  
+                                  }
+                                  
+                                  
+                                  // Demo styles.
+                                  
+                                  body {
+                                    display: flex;
+                                    flex-flow: row nowrap;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    align-content: flex-start;
+                                    height: 100vh;
+                                  }
+                                  
+                                  
+                                  // For screen readers.
+                                  .visually-hidden {
+                                    position: absolute !important;
+                                    clip: rect(1px, 1px, 1px, 1px);
+                                    padding: 0 !important;
+                                    border: 0 !important;
+                                    height: 1px !important;
+                                    width: 1px !important;
+                                    overflow: hidden;
+                                  }
+                                  
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content3" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+<!-- ================= Article 3 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/close button_2..png" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn4" class="btn btn-primary" onclick="openHTML2()">HTML</button></li>
+                            <li><button id="btn5" class="btn btn-primary" onclick="openCSS2()">CSS</button></li>
+                            <li><button id="btn6" class="btn btn-primary" onclick="openJS2()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content4" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <div class="close">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <svg viewBox="0 0 36 36" class="circle">
+                                      <path
+                                        stroke-dasharray="100, 100"
+                                        d="M18 2.0845
+                                          a 15.9155 15.9155 0 0 1 0 31.831
+                                          a 15.9155 15.9155 0 0 1 0 -31.831"
+                                      />
+                                    </svg>
+                                  </div>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content5" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                *{margin:0;padding:0;border:none;}
+body{
+  background: #263238;
+  display:grid;
+  place-items:center;
+  height:100vh;
+}
+.close{
+  $size: 60px;
+  $borderSize: 2px;
+  $borderColor: rgba(white,1);
+  $speed: .5s;
+  width:$size;
+  height:$size;
+  position: relative;
+  background: #455A64;
+  border-radius:50%;
+  box-shadow: 0 0 20px -5px rgba(white,.5);
+  transition: .25s ease-in-out;
+  cursor: pointer;
+  animation: fade-in $speed ease-out .25s both;
+  @keyframes fade-in {
+    from { opacity: 0; transform:scale(1.1) }
+  }
+  .circle {
+    path {
+      stroke: $borderColor;
+      fill: none;
+      stroke-width: $borderSize/2;
+      stroke-linecap: round;
+      animation: progress $speed ease-out .25s both;
+      @keyframes progress {
+        from { stroke-dasharray: 0 100; }
+      }
+    }
+  }
+  span{
+    display:block;
+    width:($size/4) - 2px;
+    height:$borderSize;
+    background: $borderColor;
+    box-shadow: 0 0 20px -5px rgba(white,.5);
+    border-radius: 20px;
+    position: absolute;
+    $padding: $size/3;
+    transition: .25s ease-in-out;
+    animation: slide-in $speed ease-in-out .25s both;
+    @keyframes slide-in {
+      from { width:0; }
+    }
+    &:nth-child(1){
+      top:($padding - ($borderSize/2));
+      left:$padding;
+      transform:rotate(45deg);
+      transform-origin: top left;
+    }
+    &:nth-child(2){
+      top:($padding - ($borderSize/2));
+      right:$padding;
+      transform:rotate(-45deg);
+      transform-origin: top right;
+    }
+    &:nth-child(3){
+      bottom:($padding - ($borderSize/2));
+      left:$padding;
+      transform:rotate(-45deg);
+      transform-origin: bottom left;
+    }
+    &:nth-child(4){
+      bottom:($padding - ($borderSize/2));
+      right:$padding;
+      transform:rotate(45deg);
+      transform-origin: bottom right;
+    }
+  }
+  &:hover{
+    background: #37474F;
+    span{
+      width:($size/4);
+    }
+  }
+}
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content6" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            
+
+            <!-- ================= Article 4 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/close button_4..gif" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn10" class="btn btn-primary" onclick="openHTML4()">HTML</button></li>
+                            <li><button id="btn11" class="btn btn-primary" onclick="openCSS4()">CSS</button></li>
+                            <li><button id="btn12" class="btn btn-primary" onclick="openJS4()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content10" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                h1 Open / Close  button
+                                h2 Pure CSS swagg
+
+                                button#btn
+                               -for (var x=0; x<3; x++)
+                               span   
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content11" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                body
+                                background: hsl(0, 0, 92)
+                                font-family: sans-serif
+                              h1, h2
+                                position: absolute
+                                left: 50%
+                                transform: translateX(-50%)
+                                color: hsl(0, 0, 15)
+                                font-weight: bold
+                                text-transform: uppercase
+                                letter-spacing: 2px
+                              h1
+                                top: 24px
+                                font-size: 12px
+                              h2
+                                top: 44px
+                                font-size: 10px
+                                opacity: 0.7
+                                
+                              
+                                
+                                
+                              $accent-color: hsl(0, 0, 50)
+                              #btn
+                                position: absolute
+                                width: 80px
+                                height: 80px
+                                top: 50%
+                                left: 50%
+                                transform: translate(-50%, -50%)
+                                cursor: pointer
+                                background: hsl(0, 0, 100)
+                                border-radius: 50%
+                                border: none
+                                outline: none
+                                span
+                                  position: absolute
+                                  width: 50px
+                                  height: 4px
+                                  top: 50%
+                                  left: 50%
+                                  background: hsl(0, 0, 15)
+                                  border-radius: 2px
+                                  overflow: hidden
+                                  transition: all 0.3s linear
+                                  &::before
+                                    content: ''
+                                    position: absolute
+                                    width: 0
+                                    height: 100%
+                                    top: 0
+                                    right: 0
+                                    background: $accent-color
+                                    transition: all 0.3s linear
+                                  &:nth-child(1)
+                                    animation: span-first-off 0.5s ease-in-out
+                                    animation-fill-mode: forwards
+                                  &:nth-child(2)
+                                    animation: span-second-off 0.5s ease-in-out
+                                    animation-fill-mode: forwards
+                                  &:nth-child(3)
+                                    animation: span-third-off 0.5s ease-in-out
+                                    animation-fill-mode: forwards
+                                  
+                              #btn.on
+                                &:hover span::before
+                                  width: 100%
+                                  transition: all 0.3s linear
+                                span
+                                  &:nth-child(1)
+                                    animation: span-first-on 0.5s ease-in-out
+                                    animation-fill-mode: forwards
+                                  &:nth-child(2)
+                                    animation: span-second-on 0.5s ease-in-out
+                                    animation-fill-mode: forwards
+                                  &:nth-child(3)
+                                    animation: span-third-on 0.5s ease-in-out
+                                    animation-fill-mode: forwards
+                              
+                                   
+                              @keyframes span-first-on
+                                0%
+                                  transform: translate(-50%, -300%)
+                                30%
+                                  transform: translate(-50%, -50%)
+                                100%
+                                  transform: translate(-50%, -50%) rotate(-45deg)
+                              @keyframes span-first-off
+                                0%
+                                  transform: translate(-50%, -50%) rotate(-45deg)
+                                30%
+                                  transform: translate(-50%, -50%) rotate(0deg)
+                                100%
+                                  transform: translate(-50%, -300%)
+                                
+                              @keyframes span-second-on
+                                0%
+                                  transform: translate(-50%, -50%)
+                                25%
+                                  background: $accent-color
+                                50%
+                                  transform: translate(-50%, -50%) scale(1)
+                                100%
+                                  transform: translate(-150%, -50%) scale(0)
+                              @keyframes span-second-off
+                                0%
+                                  transform: translate(-150%, -50%) scale(0)
+                                25%
+                                  background: $accent-color
+                                50%
+                                  transform: translate(-50%, -50%) scale(1)
+                                100%
+                                  transform: translate(-50%, -50%)
+                                  
+                              @keyframes span-third-on
+                                0%
+                                  transform: translate(-50%, 200%)
+                                30%
+                                  transform: translate(-50%, -50%)
+                                100%
+                                  transform: translate(-50%, -50%) rotate(45deg)
+                              @keyframes span-third-off
+                                0%
+                                  transform: translate(-50%, -50%) rotate(45deg)
+                                30%
+                                  transform: translate(-50%, -50%) rotate(0deg)
+                                100%
+                                  transform: translate(-50%, 200%)
+                                
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content12" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                var e = document.getElementById('btn');
+                                e.addEventListener('click', function() {
+                                if (this.className == 'on') this.classList.remove('on');
+                                else this.classList.add('on');
+                                });
+                            </textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 5 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/close button_5..png" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn13" class="btn btn-primary" onclick="openHTML5()">HTML</button></li>
+                            <li><button id="btn14" class="btn btn-primary" onclick="openCSS5()">CSS</button></li>
+                            <li><button id="btn15" class="btn btn-primary" onclick="openJS5()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content13" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <h1>Pure CSS close icon</h1>
+<div class="header">
+  <span class="close big"></span><ul><li>.close<li>.big</ul>
+</div><div>
+<ul class="variations">
+  <li><span class="close hairline"></span><ul><li>.hairline</ul>
+  <li><span class="close thick"></span><ul><li>.thick</ul>
+  <li><span class="close black"></span><ul><li>.black</ul>
+  <li><span class="close heavy"></span><ul><li>.heavy</ul>
+  
+  <li><span class="close pointy"></span><ul><li>.pointy</ul>
+  <li><span class="close thick pointy"></span><ul><li>.pointy<li>.thick</ul>
+  <li><span class="close black pointy"></span><ul><li>.pointy<li>.black</ul>
+  <li><span class="close heavy pointy"></span><ul><li>.pointy<li>.heavy</ul>
+  
+  <li><span class="close rounded"></span><ul><li>.rounded</ul>
+  <li><span class="close rounded thick"></span><ul><li>.rounded<li>.thick</ul>
+  <li><span class="close rounded black"></span><ul><li>.rounded<li>.black</ul>
+  <li><span class="close rounded heavy"></span><ul><li>.rounded<li>.heavy</ul>
+  
+  <li><span class="close blades"></span><ul><li>.blades</ul>
+  <li><span class="close blades thick"></span><ul><li>.blades<li>.thick</ul>
+  <li><span class="close blades black"></span><ul><li>.blades<li>.black</ul>
+  <li><span class="close blades heavy"></span><ul><li>.blades<li>.heavy</ul>
+    
+  <li><span class="close warp"></span><ul><li>.warp</ul>
+  <li><span class="close warp thick"></span><ul><li>.warp<li>.thick</ul>
+  <li><span class="close warp black"></span><ul><li>.warp<li>.black</ul>
+  <li><span class="close warp heavy"></span><ul><li>.warp<li>.heavy</ul>
+    
+  <li><span class="close fat"></span><ul><li>.fat</ul>
+  <li><span class="close fat thick"></span><ul><li>.fat<li>.thick</ul>
+  <li><span class="close fat black"></span><ul><li>.fat<li>.black</ul>
+  <li><span class="close fat heavy"></span><ul><li>.fat<li>.heavy</ul>
+</ul>
+</div>
+<small>Pure CSS close icon concept by <a href="https://codepen.io/ndeniche/">Rubén Reyes</a></small>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content14" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                @import "bourbon";
+
+$blue: #1ebcc5;
+
+body {
+  padding: 2rem;
+  font-family: Helvetica, sans-serif;
+}
+
+div {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1{
+  color: $blue;
+  text-align: center;
+  margin: 0 0 50px 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  ul {
+    margin-top: 20px;
+  }
+}
+
+.variations {
+  width: 440px;
+  display: inline-block;
+  margin: 20px 0 0;
+  li {
+    width: 70px;
+    margin: 15px 20px;
+    display: inline-block;
+    vertical-align: top;
+    ul {
+      li {
+        margin: 0;
+        text-align: left;
+        display: block;
+      }
+    }
+  }
+}
+
+.close{
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  &:hover {
+    &::before, &::after {
+      background: $blue;
+    }
+  }
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: #000;
+  }
+  &::before {
+    @include transform(rotate(45deg));
+  }
+  &::after {
+    @include transform(rotate(-45deg));
+  }
+  &.big {
+    @include transform(scale(3));
+  }
+  &.hairline {
+    &::before, &::after {
+      height: 1px;
+    }
+  }
+  &.thick {
+    &::before, &::after {
+      height: 4px;
+      margin-top: -2px;
+    }
+  }
+  &.black {
+    &::before, &::after {
+      height: 8px;
+      margin-top: -4px;
+    }
+  }
+  &.heavy {
+    &::before, &::after {
+      height: 12px;
+      margin-top: -6px;
+    }
+  }
+  &.pointy {
+    &::Before, &::after {
+      width: 200%;
+      left: -50%;
+    }
+  }
+  &.rounded {
+    &::before, &::after {
+      border-radius: 5px;
+    }
+  }
+  &.blades {
+    &::before, &::after {
+      border-radius: 5px 0;
+    }
+  }
+  &.warp {
+    &::before, &::after {
+      border-radius: 120% 0;
+    }
+  }
+  &.fat {
+    &::before, &::after {
+      border-radius: 100%;
+    }
+  }
+}
+
+small {
+  display: block;
+  padding: 5rem;
+  font: .8rem/1 sans-serif;
+  color: #777;
+  text-align: center;
+}
+small a { 
+  color: $blue; 
+  text-decoration: none; 
+  border-bottom: 1px solid #ccc; 
+}
+small a:hover { border-bottom-color: #222; }
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content15" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====================== CONTENT END =================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <script src="/public/js/main.js"></script>
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================= Script for content =============== -->
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        function openHTML() {
+            content1.style.transform = "translateX(-54.2rem)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+        }
+
+
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(-54.2rem)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#ff7846";
+            btn3.style.color = "#000";
+        }
+
+        function openJS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(-54.2rem)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#000";
+            btn3.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 2 Script ================= -->
+
+    <script>
+        var content4 = document.getElementById("content4");
+        var content5 = document.getElementById("content5");
+        var content6 = document.getElementById("content6");
+
+        var btn4 = document.getElementById("btn4")
+        var btn5 = document.getElementById("btn5")
+        var btn6 = document.getElementById("btn6")
+
+        function openHTML2() {
+            content4.style.transform = "translateX(-54.2rem)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#ff7846";
+            btn5.style.color = "#000";
+            btn6.style.color = "#000";
+        }
+
+
+        function openCSS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(-54.2rem)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#ff7846";
+            btn6.style.color = "#000";
+        }
+
+        function openJS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(-54.2rem)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#000";
+            btn6.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 3 Script ================= -->
+
+    <script>
+        var content7 = document.getElementById("content7");
+        var content8 = document.getElementById("content8");
+        var content9 = document.getElementById("content9");
+
+        var btn7 = document.getElementById("btn7")
+        var btn8 = document.getElementById("btn8")
+        var btn9 = document.getElementById("btn9")
+
+        function openHTML3() {
+            content7.style.transform = "translateX(-54.2rem)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#ff7846";
+            btn8.style.color = "#000";
+            btn9.style.color = "#000";
+        }
+
+
+        function openCSS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(-54.2rem)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#ff7846";
+            btn9.style.color = "#000";
+        }
+
+        function openJS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(-54.2rem)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#000";
+            btn9.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 4 Script ================= -->
+
+    <script>
+        var content10 = document.getElementById("content10");
+        var content11 = document.getElementById("content11");
+        var content12 = document.getElementById("content12");
+
+        var btn10 = document.getElementById("btn10")
+        var btn11 = document.getElementById("btn11")
+        var btn12 = document.getElementById("btn12")
+
+        function openHTML4() {
+            content10.style.transform = "translateX(-54.2rem)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#ff7846";
+            btn11.style.color = "#000";
+            btn12.style.color = "#000";
+        }
+
+
+        function openCSS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(-54.2rem)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#ff7846";
+            btn12.style.color = "#000";
+        }
+
+        function openJS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(-54.2rem)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#000";
+            btn12.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 5 Script ================= -->
+
+    <script>
+        var content13 = document.getElementById("content13");
+        var content14 = document.getElementById("content14");
+        var content15 = document.getElementById("content15");
+
+        var btn13 = document.getElementById("btn13")
+        var btn14 = document.getElementById("btn14")
+        var btn15 = document.getElementById("btn15")
+
+        function openHTML5() {
+            content13.style.transform = "translateX(-54.2rem)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#ff7846";
+            btn14.style.color = "#000";
+            btn15.style.color = "#000";
+        }
+
+
+        function openCSS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(-54.2rem)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#ff7846";
+            btn15.style.color = "#000";
+        }
+
+        function openJS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(-54.2rem)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#000";
+            btn15.style.color = "#ff7846";
+        }
+    </script>
+
+
+
+    <!-- ================== FOOTER STARTED ================== -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#" class="footer_logo">
+                    <h4>Code Web</h4>
+                </a>
+                <p>
+                  Community were you can get source code to customize your website with different kind of elements.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/public/html/about.html">About</a></li>
+                    <li><a href="/public/html/contact.html">Contact</a></li>
+                    <li><a href="/public/html/categories.html">Categories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>codeweb@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Code Web</small>
+        </div>
+    </footer>
+    <!-- =================== FOOTER END ================== -->
+
+    <script src="/public/js/profile.js"></script>
+
+
+</body>
+
+</html>

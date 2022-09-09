@@ -1,0 +1,2049 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Using Google Font -> Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto+Slab&display=swap"
+        rel="stylesheet" />
+
+    <title>
+        codeweb.com
+    </title>
+
+    <link rel="stylesheet" href="/public/css/categories.css" />
+
+    <!-- IconScout CDN -> For using icon as a font -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!-- SWIPER JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- =================== NAVBAR STARTED -->
+    <nav>
+        <div class="container nav_container">
+            <!-- Pages -->
+            <a href="/">
+                <img src="/public/media/images/finallogowhite-removebg-preview.png" alt="">
+            </a>
+            <ul class="nav_menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="/public/html/about.html">About</a></li>
+                <li><a href="/public/html/contact.html">Contact</a></li>
+                <li><a href="/public/html/categories.html">Categories</a></li>
+                
+            </ul>
+
+            <!-- Button -->
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+    <!-- ========================= NAVBAR END ======================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================== SIDE NAVBAR STARTED ======================= -->
+    <navyo>
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="/public/html/breadcrumbs.html"><i class="fas"></i>Breadcrumbs</a></li>
+                    <li><a href="/public/html/buttons_3d.html"><i class="fas"></i>3d Buttons</a></li>
+                    <li><a href="/public/html/buttons.html"><i class="fas"></i>Buttons</a></li>
+                    <li><a href="/public/html/cards.html"><i class="fas"></i>Cards</a></li>
+                    <li><a href="/public/html/carousels.html"><i class="fas"></i>Carousels</a></li>
+                    <li><a href="/public/html/close_button.html"><i class="fas"></i>Close Button</a></li>
+                    <li><a href="/public/html/dropdown_menu.html"><i class="fas"></i>Dropdown Menu</a></li>
+                    <li><a href="/public/html/off_canvas.html"><i class="fas"></i>Off-canvas</a></li>
+                </ul>
+            </div>
+        </div>
+    </navyo>
+
+    <!-- ================== SIDE NAVBAR END ======================= -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ====================== CONTENT STARTED =================== -->
+
+    <section class="courses">
+        <h2>Off-canvas</h2>
+
+        <div class="container courses_container">
+            <!-- ================= Article 1 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <video loop class="gallery-image" src="/public/media/video/off canvas_1.mp4"></video>
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn1" class="btn btn-primary" onclick="openHTML()">HTML</button></li>
+                            <li><button id="btn2" class="btn btn-primary" onclick="openCSS()">CSS</button></li>
+                            <li><button id="btn3" class="btn btn-primary" onclick="openJS()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content1" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                input(type="checkbox" id="check")
+label(for="check")
+  svg(viewBox="0 0 30 30" width="30" height="30")
+    path#one(
+    d="M4 10h22M4"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+    )
+    path#two(
+    d="M4 20h22M4"
+    stroke="#fff"
+    stroke-width="2"
+    stroke-linecap="round"
+    )
+  |  Click me
+
+aside
+  .top
+    h2 Title
+    ul
+      - for (var x=0;x<5;x++)
+        li Nav text
+  .bottom
+    p &copy; 2019 by Andrej Sharapov
+article
+  .wrapper
+    .content
+      h1 Off-Canvas menu on Pure CSS
+      p Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident rerum unde porro consequatur doloribus ex distinctio similique, voluptas repellendus voluptates nam dolorum! Repudiandae maxime, itaque vero dolorem distinctio inventore explicabo!
+      p Odio eaque cum blanditiis esse, earum saepe voluptate quae aliquid possimus facere non qui illo necessitatibus eveniet ab sit quaerat. Atque animi nulla veritatis molestiae qui ipsam ut assumenda facilis?
+    .footer
+      p Follow me 
+        a(href="https://twitter.com/andrejsharapov" target="_blank" title="") in Twitter
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content2" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                @import url('https://fonts.googleapis.com/css?family=Signika');
+
+$light: #fff;
+$dark: #21213d;
+$col1: #1cc7d0;
+$col2: #2ede98;
+$col3: #3369e7;
+
+$time: 500ms;
+$cubic: cubic-bezier(0.06, 0.63, 0.91, 0.66);
+
+$aside: 25vw;
+$size: 0.25em;
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  line-height: 1.5;
+  font-family: 'Signika', cursive;
+  font-weight: 300;
+  background-color: $dark;
+  color: $light;
+}
+
+a {
+  text-decoration: none;
+  color: $col3;
+}
+
+#check {
+  display: none;
+
+  + label {
+    position: absolute;
+    top: $size * 4;
+    left: $size * 4;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+    &::before {
+      position: absolute;
+      content: '';
+      top: -1em;
+      left: -1em;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba($dark, 0.5);
+      transform-origin: 50% 50%;
+      transform: scale(1.3);
+      visibility: hidden;
+      opacity: 0;
+      transition: all $time / 2 linear;
+    }
+
+    svg {
+      margin-right: 0.5em;
+      
+      path {
+        transform-origin: 35% 50%;
+        transition: transform $time / 3 $cubic;
+      }
+    }
+  }
+
+  &:checked + label {
+     ~ aside {
+      transform: none;
+    }
+    
+    &::before {
+      left: calc(25vw - 1em);
+      transform: scale(1);
+      visibility: visible;
+      opacity: 1;
+      
+      @media (max-width: 576px) {
+        left: calc(50vw - 1em);
+      }
+    }
+    
+    svg {
+      #one {
+        transform: rotate(45deg);
+      }
+      #two {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  &:checked + label {
+    ~ article {
+      z-index: -1; // set value in case of position transform-origin: x -* %
+      transform: translateX(25vw) scale(0.7);
+      border-radius: $size;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+}
+
+aside,
+article {
+  padding: ($size * 10) ($size * 4) $size;
+  transition: all $time / 2 $cubic;
+}
+
+aside {
+  position: absolute;
+  width: $aside;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-image: linear-gradient(
+    45deg, 
+    $col3, 
+    $col2
+  );
+  transform: translateX(-100%);
+    
+  @media (max-width: 576px) {
+    width: $aside * 2;
+  }
+}
+
+article {
+  position: relative;
+  transform-origin: 10% 50%; // change for position
+  width: 100%;
+  background-image: linear-gradient(
+    45deg,
+    $col1,
+    $col2
+  );
+
+  .wrapper {
+    margin: auto;
+    padding: 2em;
+    max-width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    h1 {
+      margin: 0;
+    }
+    
+    .footer {
+      text-align: right;
+    }
+  }
+}
+
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content3" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 2 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/Off Canvas_2..gif" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn4" class="btn btn-primary" onclick="openHTML2()">HTML</button></li>
+                            <li><button id="btn5" class="btn btn-primary" onclick="openCSS2()">CSS</button></li>
+                            <li><button id="btn6" class="btn btn-primary" onclick="openJS2()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content4" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <section class="top-banner">
+                                    <div class="top-banner-overlay">
+                                      <h1>Big Title Here</h1>
+                                      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                  </section>
+                                  <nav class="top-nav">
+                                    <div class="menu-wrapper">
+                                      <ul class="menu">
+                                        <li>
+                                          <a href="">home</a>
+                                        </li>
+                                        <li>
+                                          <a href="">about</a>
+                                          <ul class="sub-menu">
+                                            <li>
+                                              <a href="">— company</a>
+                                            </li>
+                                            <li>
+                                              <a href="">— people</a>
+                                            </li>
+                                          </ul>
+                                        </li>
+                                        <li>
+                                          <a href="">projects</a>
+                                        </li>
+                                        <li>
+                                          <a href="">clients</a>
+                                        </li>
+                                        <li>
+                                          <a href="">contact</a>
+                                        </li>
+                                      </ul>
+                                      <button class="menu-close" aria-label="close menu">✕</button>
+                                    </div>
+                                    <div class="fixed-menu">
+                                      <h2 class="logo">LOGO</h2>
+                                      <button class="menu-open" aria-label="open menu">☰</button>
+                                      <ul class="socials">
+                                        <li>
+                                          <a href="">facebook</a>
+                                        </li>
+                                        <li>
+                                          <a href="">twitter</a>
+                                        </li>
+                                        <li>
+                                          <a href="">instagram</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </nav>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content5" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                * {
+                                    padding: 0;
+                                    margin: 0;
+                                    box-sizing: border-box;
+                                  }
+                                  
+                                  ul {
+                                    list-style: none;
+                                  }
+                                  
+                                  button {
+                                    border: none;
+                                    background: transparent;
+                                    outline: none;
+                                    cursor: pointer;
+                                  }
+                                  
+                                  button:active {
+                                    color: black;
+                                  }
+                                  
+                                  a {
+                                    text-decoration: none;
+                                    color: black;
+                                  }
+                                  
+                                  body {
+                                    font: normal 16px/1.5 Helvetica, sans-serif;
+                                  }
+                                  
+                                  
+                                  /* .top-banner
+                                  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+                                  
+                                  .top-banner {
+                                    display: flex;
+                                    width: calc(100% - 150px);
+                                    height: 100vh;
+                                    transform: translateX(150px);
+                                    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash.jpg) no-repeat center / cover;
+                                  }
+                                  
+                                  .top-banner-overlay {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    width: 350px;
+                                    padding: 20px;
+                                    transition: transform .7s;
+                                    color: white;
+                                    background: rgba(0, 0, 0, .7);
+                                  }
+                                  
+                                  .top-banner-overlay.is-moved {
+                                    transform: translateX(350px);
+                                  }
+                                  
+                                  .top-banner-overlay.is-moved::before {
+                                    content: '';
+                                    position: absolute;
+                                    top: 0;
+                                    bottom: 0;
+                                    right: 100%;
+                                    width: 20px;
+                                    box-shadow: 0 0 10px black;
+                                  }
+                                  
+                                  .top-banner-overlay p {
+                                    font-size: 1rem;
+                                    margin-top: 10px;
+                                  }
+                                  
+                                  .top-nav li + li {
+                                    margin-top: 7px;
+                                  }
+                                  
+                                  
+                                  /* .menu-wrapper
+                                  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+                                  .top-nav .menu-wrapper {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    bottom: 0;
+                                    width: 350px;
+                                    padding: 20px;
+                                    transform: translateX(-200px);
+                                    transition: transform .7s;
+                                    background: #B1FFE5;
+                                  }
+                                  
+                                  .top-nav .menu-wrapper.is-opened {
+                                    transform: translateX(150px);
+                                  }
+                                  
+                                  .top-nav .menu-wrapper .menu {
+                                    opacity: 0;
+                                    transition: opacity .4s;
+                                  }
+                                  
+                                  .top-nav .menu-wrapper.is-opened .menu {
+                                    opacity: 1;
+                                    transition-delay: .6s;
+                                  }
+                                  
+                                  .top-nav .menu-wrapper .menu a {
+                                    font-size: 1.2rem;
+                                  }
+                                  
+                                  .top-nav .menu-wrapper .sub-menu {
+                                    padding: 10px 0 0 7px;
+                                  }
+                                  
+                                  .top-nav .menu-wrapper .menu-close {
+                                    position: absolute;
+                                    top: 20px;
+                                    right: 20px;
+                                    font-size: 1.6rem;
+                                  }
+                                  
+                                  
+                                  /* .fixed menu
+                                  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+                                  
+                                  .top-nav .fixed-menu {
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    bottom: 0;
+                                    display: flex;
+                                    flex-direction: column;
+                                    width: 150px;
+                                    padding: 20px;
+                                    background: aquamarine;
+                                  }
+                                  
+                                  .top-nav .fixed-menu .menu-open {
+                                    font-size: 1.8rem;
+                                    text-align: left;
+                                    margin: 30px 0 auto;
+                                    width: 28px;
+                                  }
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content6" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                const menuOpen = document.querySelector(".top-nav .menu-open");
+const menuClose = document.querySelector(".top-nav .menu-close");
+const menuWrapper = document.querySelector(".top-nav .menu-wrapper");
+const topBannerOverlay = document.querySelector(".top-banner-overlay");
+
+function toggleMenu() {
+  menuOpen.addEventListener("click", () => {
+    menuWrapper.classList.add("is-opened");
+    topBannerOverlay.classList.add("is-moved");
+  });
+  
+  menuClose.addEventListener("click", () => {
+    menuWrapper.classList.remove("is-opened");
+    topBannerOverlay.classList.remove("is-moved");
+  });
+}
+
+toggleMenu();
+                            </textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ================= Article 3 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/off canvas_3..gif" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn7" class="btn btn-primary" onclick="openHTML3()">HTML</button></li>
+                            <li><button id="btn8" class="btn btn-primary" onclick="openCSS3()">CSS</button></li>
+                            <li><button id="btn9" class="btn btn-primary" onclick="openJS3()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content7" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <input type="checkbox" id="menu" />
+<label for="menu" class="menu">
+	<span></span>
+	<span></span>
+	<span></span>
+</label>
+
+<nav class="nav">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Works</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</nav>
+
+
+<main>
+	<header>
+		<h1><i class="fa fa-picture-o" aria-hidden="true"></i></h1>
+	</header>
+	<section>
+		<div class="container">
+			<p>Busey ipsum dolor sit amet. You ever roasted doughnuts?I wrestled a bear once. A 750lbs black bear.The best way to communicate is compatible. Compatible communication is listening with open ears and an open mind, and not being fearful or judgemental about what you're hearing. It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs. Have you urinated? Have you drained your bladder? Are you free? Because if you haven't it will only come out later. I'm giving you some information that your bodily fluids may penetrate your clothing fibre's without warning. Did you feel that? Look at me - I'm not out of breath anymore!</p>
+
+			<p>When you get lost in your imaginatory vagueness, your foresight will become a nimble vagrant. It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs. Go with the feeling of the nature. Take it easy. Know why you're here. And remember to balance your internal energy with the environment.</p>
+
+			<p>It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs. You gotta go through it to see there ain't nothing to it. The magic Indian is a mysterious spiritual force, and we're going to Cathedral Rock, and that's the vortex of the heart. These kind of things only happen for the first time once. I would like to give you a backstage pass to my imagination. When you get lost in your imaginatory vagueness, your foresight will become a nimble vagrant. It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs.</p>
+		</div>
+	</section>
+	<div class="img">
+		<h1><i class="fa fa-picture-o" aria-hidden="true"></i></h1>
+	</div>
+	<section>
+		<div class="container">
+			<p>Have you urinated? Have you drained your bladder? Are you free? Because if you haven't it will only come out later. I'm giving you some information that your bodily fluids may penetrate your clothing fibre's without warning. Did you feel that? Look at me - I'm not out of breath anymore! When you get lost in your imaginatory vagueness, your foresight will become a nimble vagrant. It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs. Go with the feeling of the nature. Take it easy. Know why you're here. And remember to balance your internal energy with the environment.</p>
+			
+			<p>Busey ipsum dolor sit amet. You ever roasted doughnuts? I wrestled a bear once. A 750lbs black bear. The best way to communicate is compatible.</p>
+
+			<p>It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs. You gotta go through it to see there ain't nothing to it. The magic Indian is a mysterious spiritual force, and we're going to Cathedral Rock, and that's the vortex of the heart. Compatible communication is listening with open ears and an open mind, and not being fearful or judgemental about what you're hearing. It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs.</p>
+		</div>
+	</section>
+	<footer>
+		<div class="logo">
+			<i class="fa fa-picture-o" aria-hidden="true"></i>
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Works</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+		<div class="secondary-links">
+			<ul>
+				<li><a href="#">Terms and Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+			</ul>
+
+			<ul class="social">
+				<li><a href="#">
+					<i class="fa fa-github"></i>
+				</a></li>
+				<li><a href="#">
+					<i class="fa fa-twitter"></i>
+				</a></li>
+				<li><a href="#">
+					<i class="fa fa-codepen"></i>
+				</a></li>
+			</ul>
+		</div>
+	</footer>
+</main>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content8" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                @import "bourbon";
+@import "neat";
+
+$base-duration: 500ms;
+
+// Colors
+$color-1: #444;
+$color-2: #3498db;
+$color-3: #2ecc71;
+
+// Breakpoints
+$sm: new-breakpoint(min-width 320px);
+$med: new-breakpoint(min-width 768px);
+$lg: new-breakpoint(min-width 1024px);
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-smooth: auto;
+	font-weight: 300;
+	line-height: 1.75;
+	color: $color-1;
+	overflow-x: hidden;
+}
+
+.menu {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	border-radius: 50%;
+	//box-shadow: 0 0 20px rgba(black,0.2);
+	transition: transform 250ms ease;
+	cursor: pointer;
+	z-index: 200;
+	
+	span {
+		position: relative;
+		display: block;
+		width: 50%;
+		height: 2px;
+		background-color: $color-1;
+		float: left;
+		transform-origin: center center;
+		transition: transform 250ms ease;
+		z-index: 200;
+		
+		&:nth-of-type(1) {
+			transform: translateY(-5px);
+		}
+		
+		&:nth-of-type(3) {
+			transform: translateY(5px);
+		}
+	}
+}
+
+#menu {
+	display: none;
+	
+	&:checked ~ .menu {
+		background-color: transparent;
+		transform: rotate(360deg);
+		transition: transform 250ms ease;
+		
+		span {
+			background-color: white;
+			transition: transform 250ms ease;
+			
+			&:nth-of-type(1) {
+				transform: translateY(1px) rotate(45deg);
+			}
+			
+			&:nth-of-type(2) {
+				display: none;
+			}
+			
+			&:nth-of-type(3) {
+				transform: translateY(-1px) rotate(-45deg);
+			}
+		}
+	}
+	
+	&:checked ~ .nav {
+		left: 0px;
+		transition: left $base-duration ease;
+	}
+	
+	&:checked ~ main {
+		transform: translateX(250px);
+		transition: transform $base-duration ease;
+	}
+}
+
+.nav {
+	position: fixed;
+	top: 0;
+	left: -210px;
+	width: 300px;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color: $color-1;
+	transition: left $base-duration ease;
+	z-index: 0;
+	
+	ul {
+		position: relative;
+		list-style-type: none;
+		margin: 100px 0;
+		padding: 0;
+		
+		li {
+			position: relative;
+			display: block;
+			border-bottom: 5px solid rgba(white,1);
+			
+			a {
+				position: relative;
+				display: block;
+				margin: 0;
+				padding: 15px 20px;
+				color: white;
+				font-size: 14px;
+				font-weight: bold;
+				text-decoration: none;
+				text-transform: uppercase;
+				
+				&:before {
+					position: absolute;
+					content: '';
+					top: 0;
+					left: 0;
+					width: 0;
+					height: 100%;
+					transition: width 250ms ease;
+					z-index: -1;
+				}
+				
+				&:hover {
+					color: #444;
+					
+					&:before {
+						width: 100%;
+						height: 100%;
+						background-color: rgba(white,1);
+						transition: width 250ms ease;
+					}
+				}
+			}
+		}
+	}
+}
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+main {
+	position: relative;
+	display: block;
+	width: 100%;
+	padding: 0;
+	box-shadow: 0 0 20px rgba(black,0.5);
+	transform: translateX(0px);
+	transition: transform $base-duration ease;
+	z-index: 0;
+		
+	header {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 300px;
+		background-color: whitesmoke;
+// 		background-image: url('https://static.pexels.com/photos/110186/pexels-photo-110186.jpeg');
+// 		background-position: center center;
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+		
+// 		&:after {
+// 			position: absolute;
+// 			content: '';
+// 			top: 0;
+// 			left: 0;
+// 			width: 100%;
+// 			height: 100%;
+// 			background-color: rgba(white,0.5);
+// 			z-index: 0;
+// 		}
+		
+		h1 {
+			color: #ccc;
+			z-index: 3;
+		}
+	}
+	
+	section {
+		position: relative;
+		display: block;
+		margin: 0;
+		padding: 50px 0;
+		background-color: white;
+		z-index: 100;
+		
+		p {
+			margin-bottom: 30px;
+		}
+	}
+	
+	.img {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 300px;
+		background-color: $color-1;
+		// background-image: url('https://static.pexels.com/photos/108023/pexels-photo-108023.jpeg');
+		// background-position: center center;
+		// background-repeat: no-repeat;
+		// background-size: cover;
+		
+		h1 {
+			color: rgba(white,0.2);
+		}
+	}
+	
+	footer {
+		@include clearfix;
+		position: relative;
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 0;
+		padding: 20px 20px 20px;
+		background-color: $color-1;
+
+		.logo {
+			font-size: 28px;
+			color: whitesmoke;
+			line-height: 0;
+			margin-bottom: 8px;
+			margin-right: 4px;
+
+			@include media($lg) {
+				float: left;
+				margin-bottom: 0;
+			}
+		}
+
+		ul {
+			@include clearfix;
+			line-height: 1.5;
+			margin: 0 0 16px 0;
+			padding: 0;
+
+			@include media($lg) {
+				@include clearfix;
+				float: left;
+				line-height: 1.8;
+				margin-bottom: 0;
+				margin-left: 16px;
+			}
+			
+			li {
+				list-style: none;
+				padding-right: 16px;
+
+				@include media($lg) {
+					display: inline;
+					text-align: left;
+				}
+				
+				a {
+					color: rgba(white,0.7);
+					font-size: 14px;
+					font-weight: bold;
+					text-decoration: none;
+
+					&:focus,
+					&:hover {
+						color: rgba(white,1);
+					}
+				}
+			}
+		}
+
+		.secondary-links {
+			@include media($lg) {
+				float: right;
+			}
+
+			li {
+				
+				a {
+					font-size: 12px;
+					font-weight: 100 !important;
+				}
+			}
+
+			.social {
+				margin: 1em 0 0 0;
+
+				@include media($lg) {
+					float: right;
+					margin-top: 0;
+				}
+
+				li {
+					float: left;
+					font-size: 1em;
+					line-height: 0;
+					margin: 0;
+					padding-right: 0.7em;
+
+					&:last-child {
+						padding-right: 0;
+					}
+					
+					> a {
+						position: relative;
+						display: block;
+						width: 30px;
+						height: 30px;
+						background-color: rgba(white,0.7);
+						border-radius: 50%;
+						color: $color-1;
+						text-align: center;
+						line-height: 30px;
+						
+						&:hover {
+							background-color: rgba(white,1);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content9" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 4 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/off canvas_4..gif" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn10" class="btn btn-primary" onclick="openHTML4()">HTML</button></li>
+                            <li><button id="btn11" class="btn btn-primary" onclick="openCSS4()">CSS</button></li>
+                            <li><button id="btn12" class="btn btn-primary" onclick="openJS4()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content10" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <input type="checkbox" id="nav-control" class="nav-control" ><label for="nav-control" class="toggle-button">
+                                    <a class="wolverine">
+                                      <div class="claws"></div>
+                                    </a>
+                                </label>
+                                
+                                <nav class="navigation">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Link</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Link</a>
+                                        </li>
+                                    </ul>
+                                
+                                </nav>
+                                
+                                <div class="site-wrap">
+                                <div class="callout">
+                                </div>
+                                    <section>
+                                        <article>
+                                            <h1>Title</h1>
+                                        </article>
+                                
+                                        <article>
+                                            <h1>Title</h1>
+                                        </article>
+                                
+                                        <article>
+                                            <h1>Title</h1>
+                                        </article>
+                                
+                                        <article>
+                                            <h1>Title</h1>
+                                        </article>
+                                
+                                        <article>
+                                            <h1>Title</h1>
+                                        </article>
+                                
+                                    </section>
+                                </div>
+                                
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content11" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                html, body {
+                                    color: #ffffff;
+                                    margin: 0;
+                                    padding: 0;
+                                    height: 100%;
+                                    background: rgba(255, 255, 255, 1.0);
+                                    font-family: Arial, sans-serif;
+                                }
+                                
+                                html {
+                                    box-sizing: border-box;
+                                }
+                                
+                                body {
+                                    overflow-x: hidden;
+                                }
+                                
+                                *, *:before, *:after {
+                                    box-sizing: inherit;
+                                }
+                                
+                                .navigation {
+                                    width: 100%;
+                                    height: 100%;
+                                    position: fixed;
+                                      top: 0;
+                                      right: 0;
+                                      bottom: 0;
+                                      left: 0;
+                                    z-index: 0;
+                                    list-style: none;
+                                    background: #111;
+                                  
+                                  ul {
+                                    padding: 0;
+                                    margin: 0;
+                                    
+                                    li {
+                                      position: relative;
+                                      width: 200px;
+                                      list-style: none;
+                                      opacity: 0;
+                                      -webkit-transform: translateX( -70% );
+                                      -moz-transform: translateX( -70% );
+                                      -ms-transform: translateX( -70% );
+                                      -o-transform: translateX( -70% );
+                                      transform: translateX( -70% );
+                                      -webkit-transition: all 300ms ease-in-out;
+                                      -moz-transition: all 300ms ease-in-out;
+                                      -ms-transition: all 300ms ease-in-out;
+                                      -o-transition: all 300ms ease-in-out;
+                                      transition: all 300ms ease-in-out;
+                                      
+                                      a {
+                                        display: block;
+                                        padding: 19px;
+                                        color: #ffffff;
+                                        font-size: 20px;
+                                        text-decoration: none;
+                                        transition: color 0.2s, background 0.5s;
+                                        
+                                        &:hover {
+                                          background: rgba(255, 255, 255, .1)
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                                
+                                .site-wrap {
+                                    height: 100%;
+                                    width: 100%;
+                                    background-color: #ffffff;
+                                    position: relative;
+                                      top: 0;
+                                      bottom: 100%;
+                                      left: 0;
+                                    z-index: 1;
+                                    padding: 0;
+                                    background: #ffffff
+                                }
+                                
+                                .nav-control {
+                                    position: absolute;
+                                    width: 100%;
+                                    clip: rect(0, 0, 0, 0);
+                                }
+                                
+                                label[for="nav-control"] {
+                                    position: fixed;
+                                      left: 15px; 
+                                    top: 15px;
+                                    z-index: 2;
+                                    text-rendering: auto;
+                                    -webkit-font-smoothing: antialiased;
+                                    cursor: pointer;
+                                    background-size: contain;
+                                }
+                                
+                                .callout {
+                                    position: absolute;
+                                      left: 0;
+                                      top: 0;
+                                    background: rgba(255, 255, 255, .15);
+                                    width: 100%;
+                                    height: 61px;
+                                    padding: 10px 60px;
+                                    text-align: center;
+                                    z-index: 2;
+                                }
+                                
+                                .nav-control + label, .site-wrap {
+                                    transition: left 0.2s;
+                                }
+                                
+                                .nav-control:checked + label {
+                                    left: 215px;
+                                }
+                                
+                                .nav-control:checked ~ .navigation ul li {
+                                    opacity: 1;
+                                    -webkit-transform: translateX( 0 );
+                                    -moz-transform: translateX( 0 );
+                                    -ms-transform: translateX( 0 );
+                                    -o-transform: translateX( 0 );
+                                    transform: translateX( 0 );
+                                }
+                                
+                                .nav-control:checked ~ .site-wrap {
+                                    left: 200px;
+                                    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+                                }
+                                
+                                section {
+                                    width: 100%;
+                                    height: 100%;
+                                    float:left;
+                                  
+                                  &:hover article {
+                                    width: 15%;
+                                  }
+                                  
+                                  article {
+                                    cursor: pointer;
+                                    width: 20%;
+                                    height: 100%;
+                                    padding: 7% 20px 10%;
+                                    display: inline-block;
+                                    float:left;
+                                    position: relative;
+                                    text-align: center;
+                                    -moz-transition: all 250ms ease-in-out ;
+                                    -o-transition: all 250ms ease-in-out;
+                                    transition: all 250ms ease-in-out;
+                                    
+                                    &:hover {
+                                      width: 40%;
+                                      -moz-transition: all 250ms ease-in-out;
+                                      -o-transition: all 250ms ease-in-out;
+                                      transition: all 250ms ease-in-out;
+                                      opacity: 1;
+                                      
+                                      &:before {
+                                        opacity: 1;
+                                      }
+                                      
+                                      > h1 {
+                                        opacity: 1;
+                                      }
+                                    }
+                                    
+                                    &:before {
+                                      content: " ";
+                                      position: absolute;
+                                        top: 0;
+                                        left: 0;
+                                      height: 100%;
+                                      width: 100%;
+                                      opacity: 0;
+                                      background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+                                      background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.3)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+                                      background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+                                      background: -o-radial-gradient(center, ellipse cover, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+                                      background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+                                      background: radial-gradient(ellipse at center, rgba(255,255,255,0.3) 0%,rgba(255,255,255,0) 100%); /* W3C */
+                                      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+                                      -moz-transition: all 250ms ease-in-out;
+                                      -o-transition: all 250ms ease-in-out;
+                                      transition: all 250ms ease-in-out;
+                                      z-index: 1
+                                    }
+                                    
+                                    &:nth-child(1) {
+                                      background: #f2b635;
+                                    }
+                                    
+                                    &:nth-child(2){
+                                      background: #f19a2a;
+                                    }
+                                    
+                                    &:nth-child(3){
+                                      background: #00caff;
+                                    }
+                                    
+                                    &:nth-child(4){
+                                      background: #00a0e6;
+                                    }
+                                    
+                                    &:nth-child(5){
+                                      background: #f25648;
+                                    }
+                                    
+                                    h1 {
+                                      font-size: 50px;
+                                      margin:0 0 40px;
+                                      opacity: 0;
+                                      -moz-transition: all 250ms ease-in-out ;
+                                      -o-transition: all 250ms ease-in-out;
+                                      transition: all 250ms ease-in-out;
+                                      position: relative;
+                                      z-index: 2;
+                                    }
+                                    
+                                    > h1:after {
+                                      content: "Here is a sub menu";
+                                      font-size: 12px;
+                                      text-align: center;
+                                      position: absolute;
+                                        bottom: -15px;
+                                        left: 0;
+                                      text-transform: uppercase;
+                                      width: 100%;
+                                    }
+                                    
+                                    h2 {
+                                      font-size: 12px;
+                                      text-transform: uppercase;
+                                      z-index: 2;
+                                    }
+                                    
+                                    footer {
+                                      width: 100%;
+                                      position: absolute;
+                                        bottom: 0;
+                                        left: 0;
+                                      padding: 0;
+                                      
+                                      h3{
+                                        color: #ffffff;
+                                        font-size: 12px;
+                                        text-transform: uppercase;
+                                      }
+                                    }
+                                  }
+                                }
+                                
+                                
+                                @media screen and (max-width: 979px) {
+                                    
+                                  section article, section article:hover, section:hover article {
+                                        width:100%;
+                                        display: block;
+                                        height: auto;
+                                        opacity: 1;
+                                    }
+                                  
+                                    section article h1 {
+                                        margin: 50px 0 50px;
+                                        opacity: 1;
+                                    }
+                                  
+                                    section article footer {
+                                        position: static;
+                                    }
+                                  
+                                }
+                                
+                                .toggle-button {
+                                    display: block;
+                                    width: 20px;
+                                    position: relative;
+                                
+                                    .wolverine {
+                                        display: inline-block;
+                                        padding: 15px 0px;
+                                        cursor: pointer;
+                                        -webkit-user-select: none;
+                                        opacity: .97;
+                                    -webkit-transition: all .3s ease;
+                                    -moz-transition: all .3s ease;
+                                    -o-transition: all .3s ease;
+                                    transition: all .3s ease;
+                                     
+                                        .claws {
+                                            position: relative;
+                                            width: 20px;
+                                            height: 4px;
+                                            background: rgb(255,255,255);
+                                
+                                            &:before, &:after {
+                                                display: block;
+                                                content: "";
+                                                height: 4px;
+                                                width: 20px;
+                                                background: rgb(255, 255, 255);
+                                                position: absolute;
+                                                z-index: -1;
+                                                -webkit-transform-origin: 50% 50%;
+                                                transform-origin: 50% 50%;
+                                                -webkit-transition: top .1s .2s,-webkit-transform .2s ease;
+                                                -webkit-transition-delay: ease,0s;
+                                                -moz-transition: top .1s .2s ease,-moz-transform .2s ease;
+                                                -o-transition: top .1s .2s ease,-o-transform .2s ease;
+                                                transition: top .1s .2s ease,transform .2s ease;
+                                            }  
+                                
+                                            &:before {
+                                                top: 8px;
+                                            }
+                                
+                                            &:after {
+                                                top: -8px;
+                                            }
+                                        }
+                                    
+                                    &.close {
+                                
+                                       .claws {
+                                                -webkit-transition: background .1s 0s;
+                                                -webkit-transition-delay: ease;
+                                                -moz-transition: background .1s 0s ease;
+                                                -o-transition: background .1s 0s ease;
+                                                transition: background .1s 0s ease;
+                                                background: transparent!important;
+                                
+                                                &:before, &:after {
+                                            background: rgb(255,255,255);
+                                                    -webkit-transition: top .1s ease,-webkit-transform .1s .2s;
+                                                    -webkit-transition-delay: 0s,ease;
+                                                    -moz-transition: top .1s ease,-moz-transform .1s .2s ease;
+                                                    -o-transition: top .1s ease,-o-transform .1s .2s ease;
+                                                    transition: top .1s ease,transform .1s .2s ease;
+                                                    top: 0;
+                                                    width: 20px;
+                                                }
+                                
+                                                &:before {
+                                                    -webkit-transform: rotate3d(0,0,1,45deg);
+                                                    transform: rotate3d(0,0,1,45deg);
+                                                }
+                                
+                                                &:after {
+                                                    -webkit-transform: rotate3d(0,0,1,-45deg);
+                                                    transform: rotate3d(0,0,1,-45deg);
+                                                }
+                                            }
+                                     }
+                                    }
+                                }
+                                
+                                .nav-control:checked ~ .toggle-button {
+                                
+                                    .wolverine {
+                                     
+                                    .claws {
+                                      -webkit-transition: background .1s 0s;
+                                      -webkit-transition-delay: ease;
+                                      -moz-transition: background .1s 0s ease;
+                                      -o-transition: background .1s 0s ease;
+                                      transition: background .1s 0s ease;
+                                      background: transparent!important;
+                                
+                                      &:before, &:after {
+                                        background: rgb(255,255,255);
+                                        -webkit-transition: top .1s ease,-webkit-transform .1s .2s;
+                                        -webkit-transition-delay: 0s,ease;
+                                        -moz-transition: top .1s ease,-moz-transform .1s .2s ease;
+                                        -o-transition: top .1s ease,-o-transform .1s .2s ease;
+                                        transition: top .1s ease,transform .1s .2s ease;
+                                        top: 0;
+                                        width: 20px;
+                                      }
+                                
+                                      &:before {
+                                        -webkit-transform: rotate3d(0,0,1,45deg);
+                                        transform: rotate3d(0,0,1,45deg);
+                                      }
+                                
+                                      &:after {
+                                        -webkit-transform: rotate3d(0,0,1,-45deg);
+                                        transform: rotate3d(0,0,1,-45deg);
+                                      }
+                                    }  
+                                  }
+                                }
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content12" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">Js</textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ================= Article 5 ================= -->
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="/public/media/images/off canvas_5..gif" alt="Loading ..." />
+                </div>
+                <div class="course_info">
+                    <div class="button_source_code">
+                        <ul>
+                            <li><button id="btn13" class="btn btn-primary" onclick="openHTML5()">HTML</button></li>
+                            <li><button id="btn14" class="btn btn-primary" onclick="openCSS5()">CSS</button></li>
+                            <li><button id="btn15" class="btn btn-primary" onclick="openJS5()">JS</button></li>
+                        </ul>
+                    </div>
+                    <div class="button_content">
+                        <div id="content13" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                <!-- Navigation -->
+<nav id="slide-menu">
+	<ul>
+		<li class="timeline">Timeline</li>
+		<li class="events">Events</li>
+		<li class="calendar">Calendar</li>
+		<li class="sep settings">Settings</li>
+		<li class="logout">Logout</li>
+	</ul>
+</nav>
+<!-- Content panel -->
+<div id="content">
+	<div class="menu-trigger"></div>
+	<h1>iOS style sliding menu</h1>
+	<p>Here's an easy way to create an iOS style, side sliding menu.</p>
+</div>
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content14" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                @import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+/* 
+  Fonts
+*/
+@font-face {
+  font-family: 'ico';
+  src: url('data:application/octet-stream;base64,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') format('woff'),
+	   url('data:application/octet-stream;base64,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sAMlsAIlRyNHI2GwAFRYLiA8IyEbsAIlsAIlRyNHI2EgsAUlsAQlRyNHI2GwBiWwBSVJsAIlYbABRWMjIFhiGyFZY7ABRWJgIy4jICA8ijgjIVktsDUssAAWILAIQyAuRyNHI2EgYLAgYGawgGIjICA8ijgtsDYsIyAuRrACJUZSWCA8WS6xJgEUKy2wNywjIC5GsAIlRlBYIDxZLrEmARQrLbA4LCMgLkawAiVGUlggPFkjIC5GsAIlRlBYIDxZLrEmARQrLbA5LLAwKyMgLkawAiVGUlggPFkusSYBFCstsDossDEriiAgPLAEI0KKOCMgLkawAiVGUlggPFkusSYBFCuwBEMusCYrLbA7LLAAFrAEJbAEJiAuRyNHI2GwBkUrIyA8IC4jOLEmARQrLbA8LLEIBCVCsAAWsAQlsAQlIC5HI0cjYSCwBCNCsAZFKyCwYFBYILBAUVizAiADIBuzAiYDGllCQiMgR7AEQ7CAYmAgsAArIIqKYSCwAkNgZCOwA0NhZFBYsAJDYRuwA0NgWbADJbCAYmGwAiVGYTgjIDwjOBshICBGI0ewACsjYTghWbEmARQrLbA9LLAwKy6xJgEUKy2wPiywMSshIyAgPLAEI0IjOLEmARQrsARDLrAmKy2wPyywABUgR7AAI0KyAAEBFRQTLrAsKi2wQCywABUgR7AAI0KyAAEBFRQTLrAsKi2wQSyxAAEUE7AtKi2wQiywLyotsEMssAAWRSMgLiBGiiNhOLEmARQrLbBELLAII0KwQystsEUssgAAPCstsEYssgABPCstsEcssgEAPCstsEgssgEBPCstsEkssgAAPSstsEossgABPSstsEsssgEAPSstsEwssgEBPSstsE0ssgAAOSstsE4ssgABOSstsE8ssgEAOSstsFAssgEBOSstsFEssgAAOystsFIssgABOystsFMssgEAOystsFQssgEBOystsFUssgAAPistsFYssgABPistsFcssgEAPistsFgssgEBPistsFkssgAAOistsFossgABOistsFsssgEAOistsFwssgEBOistsF0ssDIrLrEmARQrLbBeLLAyK7A2Ky2wXyywMiuwNystsGAssAAWsDIrsDgrLbBhLLAzKy6xJgEUKy2wYiywMyuwNistsGMssDMrsDcrLbBkLLAzK7A4Ky2wZSywNCsusSYBFCstsGYssDQrsDYrLbBnLLA0K7A3Ky2waCywNCuwOCstsGkssDUrLrEmARQrLbBqLLA1K7A2Ky2wayywNSuwNystsGwssDUrsDgrLbBtLCuwCGWwAyRQeLABFTAtAAAAS7gAyFJYsQEBjlm5CAAIAGMgsAEjRLADI3CyBCgJRVJEsgoCByqxBgFEsSQBiFFYsECIWLEGA0SxJgGIUVi4BACIWLEGAURZWVlZuAH/hbAEjbEFAEQAAA==') format('truetype');
+}
+
+
+/*
+  Globals
+*/
+
+body {
+	margin: 0;
+	background: #556270;
+	color: #353d46;
+	font: 18px/27px 'Oxygen', sans-serif;
+}
+
+h1, h2, h3 { color: #FF6B6B; margin: 0 0 27px; }
+
+/*
+  Menu
+*/
+nav#slide-menu {
+	position: fixed;
+	top: 0;
+	left: -100px;
+	bottom: 0;
+	display: block;
+	float: left;
+	width: 100%;
+	max-width: 284px;
+	height: 100%;
+
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+
+	> ul {
+		display: block;
+		margin: 40px;
+		padding: 0;
+		list-style: none;
+		opacity: 0.5;
+
+		-moz-transition: all 300ms;
+		-webkit-transition: all 300ms;
+		transition: all 300ms;
+
+		li {
+			color: #dfe5eb;
+			padding: 6px 0;
+			cursor: pointer;
+
+			&:hover { color: #59e9df; }
+		}
+
+		li:before {
+			font-family: "ico";
+			font-style: normal;
+			font-weight: normal;
+			speak: none;
+			display: inline-block;
+			text-decoration: inherit;
+			width: 1em;
+			color: #59e9df;
+			margin-right: 12px;
+			text-align: center;
+			font-variant: normal;
+			font-size: 0.75em;
+			text-transform: none;
+			line-height: 1em;
+		}
+
+		li.sep { 
+			margin-top: 7px; 
+			padding-top: 14px; 
+			border-top: 1px solid lighten(#556270, 10%); 
+		}
+
+		li.timeline:before { content: '\e805'; }
+		li.events:before { content: '\e802'; }
+		li.calendar:before { content: '\e800'; }
+		li.settings:before { content: '\e803'; }
+		li.logout:before { content: '\e804'; }
+	}
+}
+
+body.menu-active nav#slide-menu { left: 0px; }
+body.menu-active nav#slide-menu ul { left: 0px; opacity: 1; }
+
+/*
+  Content
+*/
+
+div#content {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 60px;
+	overflow: scroll;
+	background: #fcfeff;
+	border-radius: 0;
+
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	-moz-box-shadow: -3px 0 6px darken(#556270, 5%);
+	-webkit-box-shadow: -3px 0 6px darken(#556270, 5%);
+	box-shadow: -3px 0 6px darken(#556270, 5%);
+
+	-moz-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+
+	div.menu-trigger {
+		position: fixed;
+		top: 10px;
+		left: 10px;
+		width: 36px;
+		height: 36px;
+		background: #dfe5eb;
+		cursor: pointer;
+		border-radius: 5px;
+
+		-moz-transition: all 300ms;
+		-webkit-transition: all 300ms;
+		transition: all 300ms;
+
+		&:before { 
+			content: '\e801';
+			display: inline-block;
+			width: 36px;
+			height: 36px;
+			color: black;
+			font-family: "ico";
+			font-style: normal;
+			font-size: 1.2em;
+			font-weight: normal;
+			font-variant: normal;
+			text-align: center;
+			text-transform: none;
+			line-height: 36px;
+		}
+
+		&:hover { background: #556270; &:before { color: #fcfeff; } }
+	}
+}
+
+body.menu-active div#content { left: 284px; border-radius: 7px 0 0 7px; }
+body.menu-active div#content .menu-trigger { left: 294px; }
+                            </textarea disabled>
+                        </div>
+
+                        <div id="content15" class="button_info">
+                            <textarea disabled name="code-html" id="code-html" cols="103" rows="25">
+                                (function() {
+                                    var $body = document.body
+                                    , $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+                                
+                                    if ( typeof $menu_trigger !== 'undefined' ) {
+                                        $menu_trigger.addEventListener('click', function() {
+                                            $body.className = ( $body.className == 'menu-active' )? '' : 'menu-active';
+                                        });
+                                    }
+                                
+                                }).call(this);
+                            </textarea disabled>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ====================== CONTENT END =================== -->
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+
+    <script src="/public/js/main.js"></script>
+
+
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+    <!-- ============================================== -->
+
+    <!-- ================= Script for content =============== -->
+    <script>
+        var content1 = document.getElementById("content1");
+        var content2 = document.getElementById("content2");
+        var content3 = document.getElementById("content3");
+
+        var btn1 = document.getElementById("btn1")
+        var btn2 = document.getElementById("btn2")
+        var btn3 = document.getElementById("btn3")
+
+        function openHTML() {
+            content1.style.transform = "translateX(-54.2rem)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#ff7846";
+            btn2.style.color = "#000";
+            btn3.style.color = "#000";
+        }
+
+
+        function openCSS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(-54.2rem)";
+            content3.style.transform = "translateX(100%)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#ff7846";
+            btn3.style.color = "#000";
+        }
+
+        function openJS() {
+            content1.style.transform = "translateX(100%)";
+            content2.style.transform = "translateX(100%)";
+            content3.style.transform = "translateX(-54.2rem)";
+
+            btn1.style.color = "#000";
+            btn2.style.color = "#000";
+            btn3.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 2 Script ================= -->
+
+    <script>
+        var content4 = document.getElementById("content4");
+        var content5 = document.getElementById("content5");
+        var content6 = document.getElementById("content6");
+
+        var btn4 = document.getElementById("btn4")
+        var btn5 = document.getElementById("btn5")
+        var btn6 = document.getElementById("btn6")
+
+        function openHTML2() {
+            content4.style.transform = "translateX(-54.2rem)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#ff7846";
+            btn5.style.color = "#000";
+            btn6.style.color = "#000";
+        }
+
+
+        function openCSS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(-54.2rem)";
+            content6.style.transform = "translateX(100%)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#ff7846";
+            btn6.style.color = "#000";
+        }
+
+        function openJS2() {
+            content4.style.transform = "translateX(100%)";
+            content5.style.transform = "translateX(100%)";
+            content6.style.transform = "translateX(-54.2rem)";
+
+            btn4.style.color = "#000";
+            btn5.style.color = "#000";
+            btn6.style.color = "#ff7846";
+        }
+    </script>
+
+    <!-- =============== Article 3 Script ================= -->
+
+    <script>
+        var content7 = document.getElementById("content7");
+        var content8 = document.getElementById("content8");
+        var content9 = document.getElementById("content9");
+
+        var btn7 = document.getElementById("btn7")
+        var btn8 = document.getElementById("btn8")
+        var btn9 = document.getElementById("btn9")
+
+        function openHTML3() {
+            content7.style.transform = "translateX(-54.2rem)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#ff7846";
+            btn8.style.color = "#000";
+            btn9.style.color = "#000";
+        }
+
+
+        function openCSS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(-54.2rem)";
+            content9.style.transform = "translateX(100%)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#ff7846";
+            btn9.style.color = "#000";
+        }
+
+        function openJS3() {
+            content7.style.transform = "translateX(100%)";
+            content8.style.transform = "translateX(100%)";
+            content9.style.transform = "translateX(-54.2rem)";
+
+            btn7.style.color = "#000";
+            btn8.style.color = "#000";
+            btn9.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 4 Script ================= -->
+
+    <script>
+        var content10 = document.getElementById("content10");
+        var content11 = document.getElementById("content11");
+        var content12 = document.getElementById("content12");
+
+        var btn10 = document.getElementById("btn10")
+        var btn11 = document.getElementById("btn11")
+        var btn12 = document.getElementById("btn12")
+
+        function openHTML4() {
+            content10.style.transform = "translateX(-54.2rem)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#ff7846";
+            btn11.style.color = "#000";
+            btn12.style.color = "#000";
+        }
+
+
+        function openCSS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(-54.2rem)";
+            content12.style.transform = "translateX(100%)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#ff7846";
+            btn12.style.color = "#000";
+        }
+
+        function openJS4() {
+            content10.style.transform = "translateX(100%)";
+            content11.style.transform = "translateX(100%)";
+            content12.style.transform = "translateX(-54.2rem)";
+
+            btn10.style.color = "#000";
+            btn11.style.color = "#000";
+            btn12.style.color = "#ff7846";
+        }
+    </script>
+    <!-- =============== Article 5 Script ================= -->
+
+    <script>
+        var content13 = document.getElementById("content13");
+        var content14 = document.getElementById("content14");
+        var content15 = document.getElementById("content15");
+
+        var btn13 = document.getElementById("btn13")
+        var btn14 = document.getElementById("btn14")
+        var btn15 = document.getElementById("btn15")
+
+        function openHTML5() {
+            content13.style.transform = "translateX(-54.2rem)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#ff7846";
+            btn14.style.color = "#000";
+            btn15.style.color = "#000";
+        }
+
+
+        function openCSS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(-54.2rem)";
+            content15.style.transform = "translateX(100%)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#ff7846";
+            btn15.style.color = "#000";
+        }
+
+        function openJS5() {
+            content13.style.transform = "translateX(100%)";
+            content14.style.transform = "translateX(100%)";
+            content15.style.transform = "translateX(-54.2rem)";
+
+            btn13.style.color = "#000";
+            btn14.style.color = "#000";
+            btn15.style.color = "#ff7846";
+        }
+    </script>
+
+
+
+    <!-- ================== FOOTER STARTED ================== -->
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="#" class="footer_logo">
+                    <h4>Code Web</h4>
+                </a>
+                <p>
+                  Community were you can get source code to customize your website with different kind of elements.
+                </p>
+            </div>
+
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/public/html/about.html">About</a></li>
+                    <li><a href="/public/html/categories.html">Categories</a></li>
+                    <li><a href="/public/html/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+                <div>
+                    <p>codeweb@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_copyright">
+            <small>Copyright &copy; Code Web</small>
+        </div>
+    </footer>
+    <!-- =================== FOOTER END ================== -->
+
+    <script src="/public/js/profile.js"></script>
+
+</body>
+
+</html>
